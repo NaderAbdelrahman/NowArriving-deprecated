@@ -26,7 +26,7 @@ interface StopWithSchedule extends Schedule {
 export class AppComponent implements OnInit {
 
   savedStops: Array<{ line: string | number, stopId: string | number }> = [
-    { line: 6, stopId: "636" },
+    { line: 1, stopId: "124" },
     { line: 6, stopId: "637" }
   ];
 
