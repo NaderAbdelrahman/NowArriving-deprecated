@@ -1,53 +1,11 @@
 <div class="flex justify-center">
   <div content-width class="pa2">
-
-    <ng-container *ngIf="(stopsWithSchedules$ | async) as schedules; else loadingTemplate">
-      <div
-        *ngFor="let stop of schedules; last as last"
-        [class.pb4]="!last">
-
-        <!-- stop header -->
-        <div class="tc pt2 pb3 bt" style="border-width: 6px;">
-          <div class="flex justify-center pv2">
-            <app-line-icon [line]="stop.line"></app-line-icon>
-          </div>
-
-          <p class="f4 fw8 pb1">{{ stop.stop.name}}</p>
-          <p class="gray f7">Last Updated: {{ (stop.updatedOn * 1000) | date:"shortTime" }}</p>
-        </div>
-
-        <!-- northbound times -->
-        <div class="bt pt2 pb4" style="border-width: 4px;">
-          <div class="gray ttu b">Northbound</div>
-          <div class="flex justify-start flex-wrap">
-            <ng-container *ngFor="let arrival of stop.arrivalsNorth; index as idx">
-              <div *ngIf="idx === 0" class="w-100 f1 b">
-                {{ (arrival.arrivalTime * 1000) | date:"shortTime" }}
-              </div>
-              <div *ngIf="idx > 0" class="gray pr2">
-                {{ (arrival.arrivalTime * 1000) | date:"shortTime" }}
-              </div>
-            </ng-container>
-          </div>
-        </div>
-
-        <!-- southbound times -->
-        <div class="bt pt2 pb4" style="border-width: 4px;">
-          <div class="gray ttu b">Southbound</div>
-          <div class="flex justify-start flex-wrap">
-            <ng-container *ngFor="let arrival of stop.arrivalsSouth; index as idx">
-              <div *ngIf="idx === 0" class="w-100 f1 b">
-                {{ (arrival.arrivalTime * 1000) | date:"shortTime" }}
-              </div>
-              <div *ngIf="idx > 0" class="gray pr2">
-                {{ (arrival.arrivalTime * 1000) | date:"shortTime" }}
-              </div>
-            </ng-container>
-          </div>
-        </div>
-
-
-      </div>
+    <ng-container *ngIf="(stopsWithSchedules$ | async) as stops; else loadingTemplate">
+      <app-stop-schedule
+        *ngFor="let stop of stops; last as last"
+        [stop]="stop"
+        [class.mb5]="!last">
+      </app-stop-schedule>
     </ng-container>
   </div>
 </div>

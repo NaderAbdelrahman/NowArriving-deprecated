@@ -2,15 +2,9 @@ import { Component, OnInit } from "@angular/core";
 import { Observable, of, zip as zipObservable } from "rxjs";
 
 import { MtaApi } from "./core/api";
-import { Arrival, Schedule, Stop } from "./models";
+import { Arrival, StopWithSchedule } from "./models";
 import { SCHEDULES_WITH_STOPS, STOP_LIST } from "./common";
 import { map, tap } from "../../node_modules/rxjs/operators";
-
-interface StopWithSchedule extends Schedule {
-  stop: Stop;
-  line: string | number;
-}
-
 
 @Component({
   selector: "app-root",
