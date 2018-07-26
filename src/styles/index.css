@@ -1,0 +1,16 @@
+:root {
+  --black: rgb(30, 30, 30);
+  --white: rgb(255, 255, 255);
+}
+
+
+/* RESETS */
+p {
+  margin: 0;
+}
+
+html {
+  background: var(--black);
+  color: var(--white);
+  font-family: Helvetica, sans-serif
+}

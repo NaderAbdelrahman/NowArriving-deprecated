@@ -1,5 +1,5 @@
 export interface Stop {
-  id: string;
+  id: string | number;
   name: string;
-  locationType: string;
+  locationType?: string;
 }

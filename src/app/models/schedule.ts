@@ -1,11 +1,8 @@
 import { Arrival } from "./arrival";
 
 export interface Schedule {
-  schedule: {
-    [key: string]: {
-      N: Arrival[];
-      S: Arrival[];
-    }
-  };
+  stopId: string;
+  arrivalsNorth: Arrival[];
+  arrivalsSouth: Arrival[];
   updatedOn: number;
 }

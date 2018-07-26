@@ -1,9 +1,9 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
-import {Observable, pipe} from "rxjs";
+import { Observable} from "rxjs";
 import { map } from "rxjs/operators";
 
-import { Schedule, Stop } from "../../models";
+import { Arrival, Schedule, Stop } from "../../models";
 
 @Injectable()
 export class MtaApi {
@@ -33,8 +33,11 @@ export class MtaApi {
     );
   }
 
-  getSchedule(stop: string): Observable<Schedule> {
-    return this.http.get<Schedule>(this.route + "stopSchedule?stopID=" + stop);
+  getSchedule(stop: string | number): Observable<Schedule> {
+    return this.http.get<Schedule>(this.route + "stopSchedule?stopID=" + stop)
+      .pipe(
+        map(coerceScheduleJSON)
+      );
   }
 }
 
@@ -43,5 +46,15 @@ function coerceJSON(json: any): Stop {
     id: json.stop_id,
     name: json.stop_name,
     locationType: json.location_type
+  };
+}
+
+function coerceScheduleJSON(json: any): Schedule {
+  const stopId = Object.keys(json.schedule)[0] as string;
+  return {
+    stopId,
+    arrivalsNorth: json.schedule[stopId]["N"] as Arrival[],
+    arrivalsSouth: json.schedule[stopId]["S"] as Arrival[],
+    updatedOn: json.updatedOn
   };
 }

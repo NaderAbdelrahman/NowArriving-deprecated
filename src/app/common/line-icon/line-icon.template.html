@@ -1,0 +1,11 @@
+<div
+  circle
+  class="flex items-center justify-center"
+  [ngClass]="{
+    'yellow': lineColor === 'yellow',
+    'red': lineColor === 'red',
+    'blue': lineColor === 'blue',
+    'green': lineColor === 'green'
+  }">
+  <span class="white b f1">{{ line }}</span>
+</div>

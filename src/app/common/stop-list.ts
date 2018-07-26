@@ -1,8 +1,8 @@
-[
+export const STOP_LIST = [
   {
     "Station ID": 1,
     "Complex ID": 1,
-    "GTFS Stop ID": "R01",
+    id: "R01",
     "Division": "BMT",
     "Line": "Astoria",
     "Stop Name": "Astoria - Ditmars Blvd",
@@ -15,7 +15,7 @@
   {
     "Station ID": 2,
     "Complex ID": 2,
-    "GTFS Stop ID": "R03",
+    id: "R03",
     "Division": "BMT",
     "Line": "Astoria",
     "Stop Name": "Astoria Blvd",
@@ -28,7 +28,7 @@
   {
     "Station ID": 3,
     "Complex ID": 3,
-    "GTFS Stop ID": "R04",
+    id: "R04",
     "Division": "BMT",
     "Line": "Astoria",
     "Stop Name": "30 Av",
@@ -41,7 +41,7 @@
   {
     "Station ID": 4,
     "Complex ID": 4,
-    "GTFS Stop ID": "R05",
+    id: "R05",
     "Division": "BMT",
     "Line": "Astoria",
     "Stop Name": "Broadway",
@@ -54,7 +54,7 @@
   {
     "Station ID": 5,
     "Complex ID": 5,
-    "GTFS Stop ID": "R06",
+    id: "R06",
     "Division": "BMT",
     "Line": "Astoria",
     "Stop Name": "36 Av",
@@ -67,7 +67,7 @@
   {
     "Station ID": 6,
     "Complex ID": 6,
-    "GTFS Stop ID": "R08",
+    id: "R08",
     "Division": "BMT",
     "Line": "Astoria",
     "Stop Name": "39 Av",
@@ -80,7 +80,7 @@
   {
     "Station ID": 7,
     "Complex ID": 613,
-    "GTFS Stop ID": "R11",
+    id: "R11",
     "Division": "BMT",
     "Line": "Astoria",
     "Stop Name": "Lexington Av/59 St",
@@ -93,7 +93,7 @@
   {
     "Station ID": 8,
     "Complex ID": 8,
-    "GTFS Stop ID": "R13",
+    id: "R13",
     "Division": "BMT",
     "Line": "Astoria",
     "Stop Name": "5 Av/59 St",
@@ -106,7 +106,7 @@
   {
     "Station ID": 9,
     "Complex ID": 9,
-    "GTFS Stop ID": "R14",
+    id: "R14",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "57 St - 7 Av",
@@ -119,7 +119,7 @@
   {
     "Station ID": 10,
     "Complex ID": 10,
-    "GTFS Stop ID": "R15",
+    id: "R15",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "49 St",
@@ -132,7 +132,7 @@
   {
     "Station ID": 11,
     "Complex ID": 611,
-    "GTFS Stop ID": "R16",
+    id: "R16",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "Times Sq - 42 St",
@@ -145,7 +145,7 @@
   {
     "Station ID": 12,
     "Complex ID": 607,
-    "GTFS Stop ID": "R17",
+    id: "R17",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "34 St - Herald Sq",
@@ -158,7 +158,7 @@
   {
     "Station ID": 13,
     "Complex ID": 13,
-    "GTFS Stop ID": "R18",
+    id: "R18",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "28 St",
@@ -171,7 +171,7 @@
   {
     "Station ID": 14,
     "Complex ID": 14,
-    "GTFS Stop ID": "R19",
+    id: "R19",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "23 St",
@@ -184,7 +184,7 @@
   {
     "Station ID": 15,
     "Complex ID": 602,
-    "GTFS Stop ID": "R20",
+    id: "R20",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "14 St - Union Sq",
@@ -197,7 +197,7 @@
   {
     "Station ID": 16,
     "Complex ID": 16,
-    "GTFS Stop ID": "R21",
+    id: "R21",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "8 St - NYU",
@@ -210,7 +210,7 @@
   {
     "Station ID": 17,
     "Complex ID": 17,
-    "GTFS Stop ID": "R22",
+    id: "R22",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "Prince St",
@@ -223,7 +223,7 @@
   {
     "Station ID": 18,
     "Complex ID": 623,
-    "GTFS Stop ID": "R23",
+    id: "R23",
     "Division": "BMT",
     "Line": "Broadway",
     "Stop Name": "Canal St",
@@ -236,7 +236,7 @@
   {
     "Station ID": 19,
     "Complex ID": 623,
-    "GTFS Stop ID": "Q01",
+    id: "Q01",
     "Division": "BMT",
     "Line": "Manhattan Bridge",
     "Stop Name": "Canal St",
@@ -249,7 +249,7 @@
   {
     "Station ID": 20,
     "Complex ID": 20,
-    "GTFS Stop ID": "R24",
+    id: "R24",
     "Division": "BMT",
     "Line": "Broadway",
     "Stop Name": "City Hall",
@@ -262,7 +262,7 @@
   {
     "Station ID": 21,
     "Complex ID": 21,
-    "GTFS Stop ID": "R25",
+    id: "R25",
     "Division": "BMT",
     "Line": "Broadway",
     "Stop Name": "Cortlandt St",
@@ -275,7 +275,7 @@
   {
     "Station ID": 22,
     "Complex ID": 22,
-    "GTFS Stop ID": "R26",
+    id: "R26",
     "Division": "BMT",
     "Line": "Broadway",
     "Stop Name": "Rector St",
@@ -288,7 +288,7 @@
   {
     "Station ID": 23,
     "Complex ID": 635,
-    "GTFS Stop ID": "R27",
+    id: "R27",
     "Division": "BMT",
     "Line": "Broadway",
     "Stop Name": "Whitehall St",
@@ -301,7 +301,7 @@
   {
     "Station ID": 24,
     "Complex ID": 620,
-    "GTFS Stop ID": "R28",
+    id: "R28",
     "Division": "BMT",
     "Line": "Broadway",
     "Stop Name": "Court St",
@@ -314,7 +314,7 @@
   {
     "Station ID": 25,
     "Complex ID": 636,
-    "GTFS Stop ID": "R29",
+    id: "R29",
     "Division": "BMT",
     "Line": "Broadway",
     "Stop Name": "Jay St - MetroTech",
@@ -327,7 +327,7 @@
   {
     "Station ID": 26,
     "Complex ID": 26,
-    "GTFS Stop ID": "R30",
+    id: "R30",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "DeKalb Av",
@@ -340,7 +340,7 @@
   {
     "Station ID": 27,
     "Complex ID": 617,
-    "GTFS Stop ID": "R31",
+    id: "R31",
     "Division": "BMT",
     "Line": "4th Av",
     "Stop Name": "Atlantic Av - Barclays Ctr",
@@ -353,7 +353,7 @@
   {
     "Station ID": 28,
     "Complex ID": 28,
-    "GTFS Stop ID": "R32",
+    id: "R32",
     "Division": "BMT",
     "Line": "4th Av",
     "Stop Name": "Union St",
@@ -366,7 +366,7 @@
   {
     "Station ID": 29,
     "Complex ID": 608,
-    "GTFS Stop ID": "R33",
+    id: "R33",
     "Division": "BMT",
     "Line": "4th Av",
     "Stop Name": "9 St",
@@ -379,7 +379,7 @@
   {
     "Station ID": 30,
     "Complex ID": 30,
-    "GTFS Stop ID": "R34",
+    id: "R34",
     "Division": "BMT",
     "Line": "4th Av",
     "Stop Name": "Prospect Av",
@@ -392,7 +392,7 @@
   {
     "Station ID": 31,
     "Complex ID": 31,
-    "GTFS Stop ID": "R35",
+    id: "R35",
     "Division": "BMT",
     "Line": "4th Av",
     "Stop Name": "25 St",
@@ -405,7 +405,7 @@
   {
     "Station ID": 32,
     "Complex ID": 32,
-    "GTFS Stop ID": "R36",
+    id: "R36",
     "Division": "BMT",
     "Line": "4th Av",
     "Stop Name": "36 St",
@@ -418,7 +418,7 @@
   {
     "Station ID": 33,
     "Complex ID": 33,
-    "GTFS Stop ID": "R39",
+    id: "R39",
     "Division": "BMT",
     "Line": "4th Av",
     "Stop Name": "45 St",
@@ -431,7 +431,7 @@
   {
     "Station ID": 34,
     "Complex ID": 34,
-    "GTFS Stop ID": "R40",
+    id: "R40",
     "Division": "BMT",
     "Line": "4th Av",
     "Stop Name": "53 St",
@@ -444,7 +444,7 @@
   {
     "Station ID": 35,
     "Complex ID": 35,
-    "GTFS Stop ID": "R41",
+    id: "R41",
     "Division": "BMT",
     "Line": "4th Av",
     "Stop Name": "59 St",
@@ -457,7 +457,7 @@
   {
     "Station ID": 36,
     "Complex ID": 36,
-    "GTFS Stop ID": "R42",
+    id: "R42",
     "Division": "BMT",
     "Line": "4th Av",
     "Stop Name": "Bay Ridge Av",
@@ -470,7 +470,7 @@
   {
     "Station ID": 37,
     "Complex ID": 37,
-    "GTFS Stop ID": "R43",
+    id: "R43",
     "Division": "BMT",
     "Line": "4th Av",
     "Stop Name": "77 St",
@@ -483,7 +483,7 @@
   {
     "Station ID": 38,
     "Complex ID": 38,
-    "GTFS Stop ID": "R44",
+    id: "R44",
     "Division": "BMT",
     "Line": "4th Av",
     "Stop Name": "86 St",
@@ -496,7 +496,7 @@
   {
     "Station ID": 39,
     "Complex ID": 39,
-    "GTFS Stop ID": "R45",
+    id: "R45",
     "Division": "BMT",
     "Line": "4th Av",
     "Stop Name": "Bay Ridge - 95 St",
@@ -509,7 +509,7 @@
   {
     "Station ID": 40,
     "Complex ID": 617,
-    "GTFS Stop ID": "D24",
+    id: "D24",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "Atlantic Av - Barclays Ctr",
@@ -522,7 +522,7 @@
   {
     "Station ID": 41,
     "Complex ID": 41,
-    "GTFS Stop ID": "D25",
+    id: "D25",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "7 Av",
@@ -535,7 +535,7 @@
   {
     "Station ID": 42,
     "Complex ID": 42,
-    "GTFS Stop ID": "D26",
+    id: "D26",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "Prospect Park",
@@ -548,7 +548,7 @@
   {
     "Station ID": 43,
     "Complex ID": 43,
-    "GTFS Stop ID": "D27",
+    id: "D27",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "Parkside Av",
@@ -561,7 +561,7 @@
   {
     "Station ID": 44,
     "Complex ID": 44,
-    "GTFS Stop ID": "D28",
+    id: "D28",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "Church Av",
@@ -574,7 +574,7 @@
   {
     "Station ID": 45,
     "Complex ID": 45,
-    "GTFS Stop ID": "D29",
+    id: "D29",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "Beverley Rd",
@@ -587,7 +587,7 @@
   {
     "Station ID": 46,
     "Complex ID": 46,
-    "GTFS Stop ID": "D30",
+    id: "D30",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "Cortelyou Rd",
@@ -600,7 +600,7 @@
   {
     "Station ID": 47,
     "Complex ID": 47,
-    "GTFS Stop ID": "D31",
+    id: "D31",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "Newkirk Plaza",
@@ -613,7 +613,7 @@
   {
     "Station ID": 48,
     "Complex ID": 48,
-    "GTFS Stop ID": "D32",
+    id: "D32",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "Avenue H",
@@ -626,7 +626,7 @@
   {
     "Station ID": 49,
     "Complex ID": 49,
-    "GTFS Stop ID": "D33",
+    id: "D33",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "Avenue J",
@@ -639,7 +639,7 @@
   {
     "Station ID": 50,
     "Complex ID": 50,
-    "GTFS Stop ID": "D34",
+    id: "D34",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "Avenue M",
@@ -652,7 +652,7 @@
   {
     "Station ID": 51,
     "Complex ID": 51,
-    "GTFS Stop ID": "D35",
+    id: "D35",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "Kings Hwy",
@@ -665,7 +665,7 @@
   {
     "Station ID": 52,
     "Complex ID": 52,
-    "GTFS Stop ID": "D37",
+    id: "D37",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "Avenue U",
@@ -678,7 +678,7 @@
   {
     "Station ID": 53,
     "Complex ID": 53,
-    "GTFS Stop ID": "D38",
+    id: "D38",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "Neck Rd",
@@ -691,7 +691,7 @@
   {
     "Station ID": 54,
     "Complex ID": 54,
-    "GTFS Stop ID": "D39",
+    id: "D39",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "Sheepshead Bay",
@@ -704,7 +704,7 @@
   {
     "Station ID": 55,
     "Complex ID": 55,
-    "GTFS Stop ID": "D40",
+    id: "D40",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "Brighton Beach",
@@ -717,7 +717,7 @@
   {
     "Station ID": 56,
     "Complex ID": 56,
-    "GTFS Stop ID": "D41",
+    id: "D41",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "Ocean Pkwy",
@@ -730,7 +730,7 @@
   {
     "Station ID": 57,
     "Complex ID": 57,
-    "GTFS Stop ID": "D42",
+    id: "D42",
     "Division": "BMT",
     "Line": "Broadway - Brighton",
     "Stop Name": "W 8 St - NY Aquarium",
@@ -743,7 +743,7 @@
   {
     "Station ID": 58,
     "Complex ID": 58,
-    "GTFS Stop ID": "D43",
+    id: "D43",
     "Division": "BMT",
     "Line": "Sea Beach / West End / Culver / Brighton",
     "Stop Name": "Coney Island - Stillwell Av",
@@ -756,7 +756,7 @@
   {
     "Station ID": 59,
     "Complex ID": 59,
-    "GTFS Stop ID": "B12",
+    id: "B12",
     "Division": "BMT",
     "Line": "West End",
     "Stop Name": "9 Av",
@@ -769,7 +769,7 @@
   {
     "Station ID": 60,
     "Complex ID": 60,
-    "GTFS Stop ID": "B13",
+    id: "B13",
     "Division": "BMT",
     "Line": "West End",
     "Stop Name": "Fort Hamilton Pkwy",
@@ -782,7 +782,7 @@
   {
     "Station ID": 61,
     "Complex ID": 61,
-    "GTFS Stop ID": "B14",
+    id: "B14",
     "Division": "BMT",
     "Line": "West End",
     "Stop Name": "50 St",
@@ -795,7 +795,7 @@
   {
     "Station ID": 62,
     "Complex ID": 62,
-    "GTFS Stop ID": "B15",
+    id: "B15",
     "Division": "BMT",
     "Line": "West End",
     "Stop Name": "55 St",
@@ -808,7 +808,7 @@
   {
     "Station ID": 63,
     "Complex ID": 615,
-    "GTFS Stop ID": "B16",
+    id: "B16",
     "Division": "BMT",
     "Line": "West End",
     "Stop Name": "62 St",
@@ -821,7 +821,7 @@
   {
     "Station ID": 64,
     "Complex ID": 64,
-    "GTFS Stop ID": "B17",
+    id: "B17",
     "Division": "BMT",
     "Line": "West End",
     "Stop Name": "71 St",
@@ -834,7 +834,7 @@
   {
     "Station ID": 65,
     "Complex ID": 65,
-    "GTFS Stop ID": "B18",
+    id: "B18",
     "Division": "BMT",
     "Line": "West End",
     "Stop Name": "79 St",
@@ -847,7 +847,7 @@
   {
     "Station ID": 66,
     "Complex ID": 66,
-    "GTFS Stop ID": "B19",
+    id: "B19",
     "Division": "BMT",
     "Line": "West End",
     "Stop Name": "18 Av",
@@ -860,7 +860,7 @@
   {
     "Station ID": 67,
     "Complex ID": 67,
-    "GTFS Stop ID": "B20",
+    id: "B20",
     "Division": "BMT",
     "Line": "West End",
     "Stop Name": "20 Av",
@@ -873,7 +873,7 @@
   {
     "Station ID": 68,
     "Complex ID": 68,
-    "GTFS Stop ID": "B21",
+    id: "B21",
     "Division": "BMT",
     "Line": "West End",
     "Stop Name": "Bay Pkwy",
@@ -886,7 +886,7 @@
   {
     "Station ID": 69,
     "Complex ID": 69,
-    "GTFS Stop ID": "B22",
+    id: "B22",
     "Division": "BMT",
     "Line": "West End",
     "Stop Name": "25 Av",
@@ -899,7 +899,7 @@
   {
     "Station ID": 70,
     "Complex ID": 70,
-    "GTFS Stop ID": "B23",
+    id: "B23",
     "Division": "BMT",
     "Line": "West End",
     "Stop Name": "Bay 50 St",
@@ -912,7 +912,7 @@
   {
     "Station ID": 71,
     "Complex ID": 71,
-    "GTFS Stop ID": "N02",
+    id: "N02",
     "Division": "BMT",
     "Line": "Sea Beach",
     "Stop Name": "8 Av",
@@ -925,7 +925,7 @@
   {
     "Station ID": 72,
     "Complex ID": 72,
-    "GTFS Stop ID": "N03",
+    id: "N03",
     "Division": "BMT",
     "Line": "Sea Beach",
     "Stop Name": "Fort Hamilton Pkwy",
@@ -938,7 +938,7 @@
   {
     "Station ID": 73,
     "Complex ID": 615,
-    "GTFS Stop ID": "N04",
+    id: "N04",
     "Division": "BMT",
     "Line": "Sea Beach",
     "Stop Name": "New Utrecht Av",
@@ -951,7 +951,7 @@
   {
     "Station ID": 74,
     "Complex ID": 74,
-    "GTFS Stop ID": "N05",
+    id: "N05",
     "Division": "BMT",
     "Line": "Sea Beach",
     "Stop Name": "18 Av",
@@ -964,7 +964,7 @@
   {
     "Station ID": 75,
     "Complex ID": 75,
-    "GTFS Stop ID": "N06",
+    id: "N06",
     "Division": "BMT",
     "Line": "Sea Beach",
     "Stop Name": "20 Av",
@@ -977,7 +977,7 @@
   {
     "Station ID": 76,
     "Complex ID": 76,
-    "GTFS Stop ID": "N07",
+    id: "N07",
     "Division": "BMT",
     "Line": "Sea Beach",
     "Stop Name": "Bay Pkwy",
@@ -990,7 +990,7 @@
   {
     "Station ID": 77,
     "Complex ID": 77,
-    "GTFS Stop ID": "N08",
+    id: "N08",
     "Division": "BMT",
     "Line": "Sea Beach",
     "Stop Name": "Kings Hwy",
@@ -1003,7 +1003,7 @@
   {
     "Station ID": 78,
     "Complex ID": 78,
-    "GTFS Stop ID": "N09",
+    id: "N09",
     "Division": "BMT",
     "Line": "Sea Beach",
     "Stop Name": "Avenue U",
@@ -1016,7 +1016,7 @@
   {
     "Station ID": 79,
     "Complex ID": 79,
-    "GTFS Stop ID": "N10",
+    id: "N10",
     "Division": "BMT",
     "Line": "Sea Beach",
     "Stop Name": "86 St",
@@ -1029,7 +1029,7 @@
   {
     "Station ID": 80,
     "Complex ID": 80,
-    "GTFS Stop ID": "J12",
+    id: "J12",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "121 St",
@@ -1042,7 +1042,7 @@
   {
     "Station ID": 81,
     "Complex ID": 81,
-    "GTFS Stop ID": "J13",
+    id: "J13",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "111 St",
@@ -1055,7 +1055,7 @@
   {
     "Station ID": 82,
     "Complex ID": 82,
-    "GTFS Stop ID": "J14",
+    id: "J14",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "104 St",
@@ -1068,7 +1068,7 @@
   {
     "Station ID": 83,
     "Complex ID": 83,
-    "GTFS Stop ID": "J15",
+    id: "J15",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Woodhaven Blvd",
@@ -1081,7 +1081,7 @@
   {
     "Station ID": 84,
     "Complex ID": 84,
-    "GTFS Stop ID": "J16",
+    id: "J16",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "85 St - Forest Pkwy",
@@ -1094,7 +1094,7 @@
   {
     "Station ID": 85,
     "Complex ID": 85,
-    "GTFS Stop ID": "J17",
+    id: "J17",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "75 St",
@@ -1107,7 +1107,7 @@
   {
     "Station ID": 86,
     "Complex ID": 86,
-    "GTFS Stop ID": "J19",
+    id: "J19",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Cypress Hills",
@@ -1120,7 +1120,7 @@
   {
     "Station ID": 87,
     "Complex ID": 87,
-    "GTFS Stop ID": "J20",
+    id: "J20",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Crescent St",
@@ -1133,7 +1133,7 @@
   {
     "Station ID": 88,
     "Complex ID": 88,
-    "GTFS Stop ID": "J21",
+    id: "J21",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Norwood Av",
@@ -1146,7 +1146,7 @@
   {
     "Station ID": 89,
     "Complex ID": 89,
-    "GTFS Stop ID": "J22",
+    id: "J22",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Cleveland St",
@@ -1159,7 +1159,7 @@
   {
     "Station ID": 90,
     "Complex ID": 90,
-    "GTFS Stop ID": "J23",
+    id: "J23",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Van Siclen Av",
@@ -1172,7 +1172,7 @@
   {
     "Station ID": 91,
     "Complex ID": 91,
-    "GTFS Stop ID": "J24",
+    id: "J24",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Alabama Av",
@@ -1185,7 +1185,7 @@
   {
     "Station ID": 92,
     "Complex ID": 621,
-    "GTFS Stop ID": "J27",
+    id: "J27",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Broadway Jct",
@@ -1198,7 +1198,7 @@
   {
     "Station ID": 93,
     "Complex ID": 93,
-    "GTFS Stop ID": "J28",
+    id: "J28",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Chauncey St",
@@ -1211,7 +1211,7 @@
   {
     "Station ID": 94,
     "Complex ID": 94,
-    "GTFS Stop ID": "J29",
+    id: "J29",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Halsey St",
@@ -1224,7 +1224,7 @@
   {
     "Station ID": 95,
     "Complex ID": 95,
-    "GTFS Stop ID": "J30",
+    id: "J30",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Gates Av",
@@ -1237,7 +1237,7 @@
   {
     "Station ID": 96,
     "Complex ID": 96,
-    "GTFS Stop ID": "J31",
+    id: "J31",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Kosciuszko St",
@@ -1250,7 +1250,7 @@
   {
     "Station ID": 97,
     "Complex ID": 97,
-    "GTFS Stop ID": "M11",
+    id: "M11",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Myrtle Av",
@@ -1263,7 +1263,7 @@
   {
     "Station ID": 98,
     "Complex ID": 98,
-    "GTFS Stop ID": "M12",
+    id: "M12",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Flushing Av",
@@ -1276,7 +1276,7 @@
   {
     "Station ID": 99,
     "Complex ID": 99,
-    "GTFS Stop ID": "M13",
+    id: "M13",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Lorimer St",
@@ -1289,7 +1289,7 @@
   {
     "Station ID": 100,
     "Complex ID": 100,
-    "GTFS Stop ID": "M14",
+    id: "M14",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Hewes St",
@@ -1302,7 +1302,7 @@
   {
     "Station ID": 101,
     "Complex ID": 101,
-    "GTFS Stop ID": "M16",
+    id: "M16",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Marcy Av",
@@ -1315,7 +1315,7 @@
   {
     "Station ID": 102,
     "Complex ID": 625,
-    "GTFS Stop ID": "M18",
+    id: "M18",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Essex St",
@@ -1328,7 +1328,7 @@
   {
     "Station ID": 103,
     "Complex ID": 103,
-    "GTFS Stop ID": "M19",
+    id: "M19",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Bowery",
@@ -1341,7 +1341,7 @@
   {
     "Station ID": 104,
     "Complex ID": 623,
-    "GTFS Stop ID": "M20",
+    id: "M20",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Canal St",
@@ -1354,7 +1354,7 @@
   {
     "Station ID": 105,
     "Complex ID": 622,
-    "GTFS Stop ID": "M21",
+    id: "M21",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Chambers St",
@@ -1367,7 +1367,7 @@
   {
     "Station ID": 106,
     "Complex ID": 628,
-    "GTFS Stop ID": "M22",
+    id: "M22",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Fulton St",
@@ -1380,7 +1380,7 @@
   {
     "Station ID": 107,
     "Complex ID": 107,
-    "GTFS Stop ID": "M23",
+    id: "M23",
     "Division": "BMT",
     "Line": "Jamaica",
     "Stop Name": "Broad St",
@@ -1393,7 +1393,7 @@
   {
     "Station ID": 108,
     "Complex ID": 108,
-    "GTFS Stop ID": "M01",
+    id: "M01",
     "Division": "BMT",
     "Line": "Myrtle Av",
     "Stop Name": "Middle Village - Metropolitan Av",
@@ -1406,7 +1406,7 @@
   {
     "Station ID": 109,
     "Complex ID": 109,
-    "GTFS Stop ID": "M04",
+    id: "M04",
     "Division": "BMT",
     "Line": "Myrtle Av",
     "Stop Name": "Fresh Pond Rd",
@@ -1419,7 +1419,7 @@
   {
     "Station ID": 110,
     "Complex ID": 110,
-    "GTFS Stop ID": "M05",
+    id: "M05",
     "Division": "BMT",
     "Line": "Myrtle Av",
     "Stop Name": "Forest Av",
@@ -1432,7 +1432,7 @@
   {
     "Station ID": 111,
     "Complex ID": 111,
-    "GTFS Stop ID": "M06",
+    id: "M06",
     "Division": "BMT",
     "Line": "Myrtle Av",
     "Stop Name": "Seneca Av",
@@ -1445,7 +1445,7 @@
   {
     "Station ID": 112,
     "Complex ID": 630,
-    "GTFS Stop ID": "M08",
+    id: "M08",
     "Division": "BMT",
     "Line": "Myrtle Av",
     "Stop Name": "Myrtle - Wyckoff Avs",
@@ -1458,7 +1458,7 @@
   {
     "Station ID": 113,
     "Complex ID": 113,
-    "GTFS Stop ID": "M09",
+    id: "M09",
     "Division": "BMT",
     "Line": "Myrtle Av",
     "Stop Name": "Knickerbocker Av",
@@ -1471,7 +1471,7 @@
   {
     "Station ID": 114,
     "Complex ID": 114,
-    "GTFS Stop ID": "M10",
+    id: "M10",
     "Division": "BMT",
     "Line": "Myrtle Av",
     "Stop Name": "Central Av",
@@ -1484,7 +1484,7 @@
   {
     "Station ID": 115,
     "Complex ID": 618,
-    "GTFS Stop ID": "L01",
+    id: "L01",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "8 Av",
@@ -1497,7 +1497,7 @@
   {
     "Station ID": 116,
     "Complex ID": 601,
-    "GTFS Stop ID": "L02",
+    id: "L02",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "6 Av",
@@ -1510,7 +1510,7 @@
   {
     "Station ID": 117,
     "Complex ID": 602,
-    "GTFS Stop ID": "L03",
+    id: "L03",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "Union Sq - 14 St",
@@ -1523,7 +1523,7 @@
   {
     "Station ID": 118,
     "Complex ID": 118,
-    "GTFS Stop ID": "L05",
+    id: "L05",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "3 Av",
@@ -1536,7 +1536,7 @@
   {
     "Station ID": 119,
     "Complex ID": 119,
-    "GTFS Stop ID": "L06",
+    id: "L06",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "1 Av",
@@ -1549,7 +1549,7 @@
   {
     "Station ID": 120,
     "Complex ID": 120,
-    "GTFS Stop ID": "L08",
+    id: "L08",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "Bedford Av",
@@ -1562,7 +1562,7 @@
   {
     "Station ID": 121,
     "Complex ID": 629,
-    "GTFS Stop ID": "L10",
+    id: "L10",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "Lorimer St",
@@ -1575,7 +1575,7 @@
   {
     "Station ID": 122,
     "Complex ID": 122,
-    "GTFS Stop ID": "L11",
+    id: "L11",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "Graham Av",
@@ -1588,7 +1588,7 @@
   {
     "Station ID": 123,
     "Complex ID": 123,
-    "GTFS Stop ID": "L12",
+    id: "L12",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "Grand St",
@@ -1601,7 +1601,7 @@
   {
     "Station ID": 124,
     "Complex ID": 124,
-    "GTFS Stop ID": "L13",
+    id: "L13",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "Montrose Av",
@@ -1614,7 +1614,7 @@
   {
     "Station ID": 125,
     "Complex ID": 125,
-    "GTFS Stop ID": "L14",
+    id: "L14",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "Morgan Av",
@@ -1627,7 +1627,7 @@
   {
     "Station ID": 126,
     "Complex ID": 126,
-    "GTFS Stop ID": "L15",
+    id: "L15",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "Jefferson St",
@@ -1640,7 +1640,7 @@
   {
     "Station ID": 127,
     "Complex ID": 127,
-    "GTFS Stop ID": "L16",
+    id: "L16",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "DeKalb Av",
@@ -1653,7 +1653,7 @@
   {
     "Station ID": 128,
     "Complex ID": 630,
-    "GTFS Stop ID": "L17",
+    id: "L17",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "Myrtle - Wyckoff Avs",
@@ -1666,7 +1666,7 @@
   {
     "Station ID": 129,
     "Complex ID": 129,
-    "GTFS Stop ID": "L19",
+    id: "L19",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "Halsey St",
@@ -1679,7 +1679,7 @@
   {
     "Station ID": 130,
     "Complex ID": 130,
-    "GTFS Stop ID": "L20",
+    id: "L20",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "Wilson Av",
@@ -1692,7 +1692,7 @@
   {
     "Station ID": 131,
     "Complex ID": 131,
-    "GTFS Stop ID": "L21",
+    id: "L21",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "Bushwick Av - Aberdeen St",
@@ -1705,7 +1705,7 @@
   {
     "Station ID": 132,
     "Complex ID": 621,
-    "GTFS Stop ID": "L22",
+    id: "L22",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "Broadway Jct",
@@ -1718,7 +1718,7 @@
   {
     "Station ID": 133,
     "Complex ID": 133,
-    "GTFS Stop ID": "L24",
+    id: "L24",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "Atlantic Av",
@@ -1731,7 +1731,7 @@
   {
     "Station ID": 134,
     "Complex ID": 134,
-    "GTFS Stop ID": "L25",
+    id: "L25",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "Sutter Av",
@@ -1744,7 +1744,7 @@
   {
     "Station ID": 135,
     "Complex ID": 135,
-    "GTFS Stop ID": "L26",
+    id: "L26",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "Livonia Av",
@@ -1757,7 +1757,7 @@
   {
     "Station ID": 136,
     "Complex ID": 136,
-    "GTFS Stop ID": "L27",
+    id: "L27",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "New Lots Av",
@@ -1770,7 +1770,7 @@
   {
     "Station ID": 137,
     "Complex ID": 137,
-    "GTFS Stop ID": "L28",
+    id: "L28",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "E 105 St",
@@ -1783,7 +1783,7 @@
   {
     "Station ID": 138,
     "Complex ID": 138,
-    "GTFS Stop ID": "L29",
+    id: "L29",
     "Division": "BMT",
     "Line": "Canarsie",
     "Stop Name": "Canarsie - Rockaway Pkwy",
@@ -1796,7 +1796,7 @@
   {
     "Station ID": 139,
     "Complex ID": 627,
-    "GTFS Stop ID": "S01",
+    id: "S01",
     "Division": "BMT",
     "Line": "Franklin Shuttle",
     "Stop Name": "Franklin Av",
@@ -1809,7 +1809,7 @@
   {
     "Station ID": 141,
     "Complex ID": 141,
-    "GTFS Stop ID": "S03",
+    id: "S03",
     "Division": "BMT",
     "Line": "Franklin Shuttle",
     "Stop Name": "Park Pl",
@@ -1822,7 +1822,7 @@
   {
     "Station ID": 142,
     "Complex ID": 626,
-    "GTFS Stop ID": "S04",
+    id: "S04",
     "Division": "BMT",
     "Line": "Franklin Shuttle",
     "Stop Name": "Botanic Garden",
@@ -1835,7 +1835,7 @@
   {
     "Station ID": 143,
     "Complex ID": 143,
-    "GTFS Stop ID": "A02",
+    id: "A02",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Inwood - 207 St",
@@ -1848,7 +1848,7 @@
   {
     "Station ID": 144,
     "Complex ID": 144,
-    "GTFS Stop ID": "A03",
+    id: "A03",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Dyckman St",
@@ -1861,7 +1861,7 @@
   {
     "Station ID": 145,
     "Complex ID": 145,
-    "GTFS Stop ID": "A05",
+    id: "A05",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "190 St",
@@ -1874,7 +1874,7 @@
   {
     "Station ID": 146,
     "Complex ID": 146,
-    "GTFS Stop ID": "A06",
+    id: "A06",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "181 St",
@@ -1887,7 +1887,7 @@
   {
     "Station ID": 147,
     "Complex ID": 147,
-    "GTFS Stop ID": "A07",
+    id: "A07",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "175 St",
@@ -1900,7 +1900,7 @@
   {
     "Station ID": 148,
     "Complex ID": 605,
-    "GTFS Stop ID": "A09",
+    id: "A09",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "168 St",
@@ -1913,7 +1913,7 @@
   {
     "Station ID": 149,
     "Complex ID": 149,
-    "GTFS Stop ID": "A10",
+    id: "A10",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "163 St - Amsterdam Av",
@@ -1926,7 +1926,7 @@
   {
     "Station ID": 150,
     "Complex ID": 150,
-    "GTFS Stop ID": "A11",
+    id: "A11",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "155 St",
@@ -1939,7 +1939,7 @@
   {
     "Station ID": 151,
     "Complex ID": 151,
-    "GTFS Stop ID": "A12",
+    id: "A12",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "145 St",
@@ -1952,7 +1952,7 @@
   {
     "Station ID": 151,
     "Complex ID": 151,
-    "GTFS Stop ID": "D13",
+    id: "D13",
     "Division": "IND",
     "Line": "Concourse",
     "Stop Name": "145 St",
@@ -1965,7 +1965,7 @@
   {
     "Station ID": 152,
     "Complex ID": 152,
-    "GTFS Stop ID": "A14",
+    id: "A14",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "135 St",
@@ -1978,7 +1978,7 @@
   {
     "Station ID": 153,
     "Complex ID": 153,
-    "GTFS Stop ID": "A15",
+    id: "A15",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "125 St",
@@ -1991,7 +1991,7 @@
   {
     "Station ID": 154,
     "Complex ID": 154,
-    "GTFS Stop ID": "A16",
+    id: "A16",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "116 St",
@@ -2004,7 +2004,7 @@
   {
     "Station ID": 155,
     "Complex ID": 155,
-    "GTFS Stop ID": "A17",
+    id: "A17",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Cathedral Pkwy (110 St)",
@@ -2017,7 +2017,7 @@
   {
     "Station ID": 156,
     "Complex ID": 156,
-    "GTFS Stop ID": "A18",
+    id: "A18",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "103 St",
@@ -2030,7 +2030,7 @@
   {
     "Station ID": 157,
     "Complex ID": 157,
-    "GTFS Stop ID": "A19",
+    id: "A19",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "96 St",
@@ -2043,7 +2043,7 @@
   {
     "Station ID": 158,
     "Complex ID": 158,
-    "GTFS Stop ID": "A20",
+    id: "A20",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "86 St",
@@ -2056,7 +2056,7 @@
   {
     "Station ID": 159,
     "Complex ID": 159,
-    "GTFS Stop ID": "A21",
+    id: "A21",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "81 St - Museum of Natural History",
@@ -2069,7 +2069,7 @@
   {
     "Station ID": 160,
     "Complex ID": 160,
-    "GTFS Stop ID": "A22",
+    id: "A22",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "72 St",
@@ -2082,7 +2082,7 @@
   {
     "Station ID": 161,
     "Complex ID": 614,
-    "GTFS Stop ID": "A24",
+    id: "A24",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "59 St - Columbus Circle",
@@ -2095,7 +2095,7 @@
   {
     "Station ID": 162,
     "Complex ID": 162,
-    "GTFS Stop ID": "A25",
+    id: "A25",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "50 St",
@@ -2108,7 +2108,7 @@
   {
     "Station ID": 163,
     "Complex ID": 611,
-    "GTFS Stop ID": "A27",
+    id: "A27",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "42 St - Port Authority Bus Terminal",
@@ -2121,7 +2121,7 @@
   {
     "Station ID": 164,
     "Complex ID": 164,
-    "GTFS Stop ID": "A28",
+    id: "A28",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "34 St - Penn Station",
@@ -2134,7 +2134,7 @@
   {
     "Station ID": 165,
     "Complex ID": 165,
-    "GTFS Stop ID": "A30",
+    id: "A30",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "23 St",
@@ -2147,7 +2147,7 @@
   {
     "Station ID": 166,
     "Complex ID": 618,
-    "GTFS Stop ID": "A31",
+    id: "A31",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "14 St",
@@ -2160,7 +2160,7 @@
   {
     "Station ID": 167,
     "Complex ID": 167,
-    "GTFS Stop ID": "A32",
+    id: "A32",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "W 4 St",
@@ -2173,7 +2173,7 @@
   {
     "Station ID": 167,
     "Complex ID": 167,
-    "GTFS Stop ID": "D20",
+    id: "D20",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "W 4 St",
@@ -2186,7 +2186,7 @@
   {
     "Station ID": 168,
     "Complex ID": 168,
-    "GTFS Stop ID": "A33",
+    id: "A33",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Spring St",
@@ -2199,7 +2199,7 @@
   {
     "Station ID": 169,
     "Complex ID": 169,
-    "GTFS Stop ID": "A34",
+    id: "A34",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Canal St",
@@ -2212,7 +2212,7 @@
   {
     "Station ID": 170,
     "Complex ID": 624,
-    "GTFS Stop ID": "A36",
+    id: "A36",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Chambers St",
@@ -2225,7 +2225,7 @@
   {
     "Station ID": 171,
     "Complex ID": 624,
-    "GTFS Stop ID": "E01",
+    id: "E01",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "World Trade Center",
@@ -2238,7 +2238,7 @@
   {
     "Station ID": 172,
     "Complex ID": 628,
-    "GTFS Stop ID": "A38",
+    id: "A38",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Fulton St",
@@ -2251,7 +2251,7 @@
   {
     "Station ID": 173,
     "Complex ID": 173,
-    "GTFS Stop ID": "A40",
+    id: "A40",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "High St",
@@ -2264,7 +2264,7 @@
   {
     "Station ID": 174,
     "Complex ID": 636,
-    "GTFS Stop ID": "A41",
+    id: "A41",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Jay St - MetroTech",
@@ -2277,7 +2277,7 @@
   {
     "Station ID": 175,
     "Complex ID": 175,
-    "GTFS Stop ID": "A42",
+    id: "A42",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Hoyt - Schermerhorn Sts",
@@ -2290,7 +2290,7 @@
   {
     "Station ID": 176,
     "Complex ID": 176,
-    "GTFS Stop ID": "A43",
+    id: "A43",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Lafayette Av",
@@ -2303,7 +2303,7 @@
   {
     "Station ID": 177,
     "Complex ID": 177,
-    "GTFS Stop ID": "A44",
+    id: "A44",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Clinton - Washington Avs",
@@ -2316,7 +2316,7 @@
   {
     "Station ID": 178,
     "Complex ID": 627,
-    "GTFS Stop ID": "A45",
+    id: "A45",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Franklin Av",
@@ -2329,7 +2329,7 @@
   {
     "Station ID": 179,
     "Complex ID": 179,
-    "GTFS Stop ID": "A46",
+    id: "A46",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Nostrand Av",
@@ -2342,7 +2342,7 @@
   {
     "Station ID": 180,
     "Complex ID": 180,
-    "GTFS Stop ID": "A47",
+    id: "A47",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Kingston - Throop Avs",
@@ -2355,7 +2355,7 @@
   {
     "Station ID": 181,
     "Complex ID": 181,
-    "GTFS Stop ID": "A48",
+    id: "A48",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Utica Av",
@@ -2368,7 +2368,7 @@
   {
     "Station ID": 182,
     "Complex ID": 182,
-    "GTFS Stop ID": "A49",
+    id: "A49",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Ralph Av",
@@ -2381,7 +2381,7 @@
   {
     "Station ID": 183,
     "Complex ID": 183,
-    "GTFS Stop ID": "A50",
+    id: "A50",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Rockaway Av",
@@ -2394,7 +2394,7 @@
   {
     "Station ID": 184,
     "Complex ID": 621,
-    "GTFS Stop ID": "A51",
+    id: "A51",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Broadway Jct",
@@ -2407,7 +2407,7 @@
   {
     "Station ID": 185,
     "Complex ID": 185,
-    "GTFS Stop ID": "A52",
+    id: "A52",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Liberty Av",
@@ -2420,7 +2420,7 @@
   {
     "Station ID": 186,
     "Complex ID": 186,
-    "GTFS Stop ID": "A53",
+    id: "A53",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Van Siclen Av",
@@ -2433,7 +2433,7 @@
   {
     "Station ID": 187,
     "Complex ID": 187,
-    "GTFS Stop ID": "A54",
+    id: "A54",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Shepherd Av",
@@ -2446,7 +2446,7 @@
   {
     "Station ID": 188,
     "Complex ID": 188,
-    "GTFS Stop ID": "A55",
+    id: "A55",
     "Division": "IND",
     "Line": "8th Av - Fulton St",
     "Stop Name": "Euclid Av",
@@ -2459,7 +2459,7 @@
   {
     "Station ID": 189,
     "Complex ID": 189,
-    "GTFS Stop ID": "A57",
+    id: "A57",
     "Division": "IND",
     "Line": "Liberty Av",
     "Stop Name": "Grant Av",
@@ -2472,7 +2472,7 @@
   {
     "Station ID": 190,
     "Complex ID": 190,
-    "GTFS Stop ID": "A59",
+    id: "A59",
     "Division": "IND",
     "Line": "Liberty Av",
     "Stop Name": "80 St",
@@ -2485,7 +2485,7 @@
   {
     "Station ID": 191,
     "Complex ID": 191,
-    "GTFS Stop ID": "A60",
+    id: "A60",
     "Division": "IND",
     "Line": "Liberty Av",
     "Stop Name": "88 St",
@@ -2498,7 +2498,7 @@
   {
     "Station ID": 192,
     "Complex ID": 192,
-    "GTFS Stop ID": "A61",
+    id: "A61",
     "Division": "IND",
     "Line": "Liberty Av",
     "Stop Name": "Rockaway Blvd",
@@ -2511,7 +2511,7 @@
   {
     "Station ID": 193,
     "Complex ID": 193,
-    "GTFS Stop ID": "A63",
+    id: "A63",
     "Division": "IND",
     "Line": "Liberty Av",
     "Stop Name": "104 St",
@@ -2524,7 +2524,7 @@
   {
     "Station ID": 194,
     "Complex ID": 194,
-    "GTFS Stop ID": "A64",
+    id: "A64",
     "Division": "IND",
     "Line": "Liberty Av",
     "Stop Name": "111 St",
@@ -2537,7 +2537,7 @@
   {
     "Station ID": 195,
     "Complex ID": 195,
-    "GTFS Stop ID": "A65",
+    id: "A65",
     "Division": "IND",
     "Line": "Liberty Av",
     "Stop Name": "Ozone Park - Lefferts Blvd",
@@ -2550,7 +2550,7 @@
   {
     "Station ID": 196,
     "Complex ID": 196,
-    "GTFS Stop ID": "H01",
+    id: "H01",
     "Division": "IND",
     "Line": "Rockaway",
     "Stop Name": "Aqueduct Racetrack",
@@ -2563,7 +2563,7 @@
   {
     "Station ID": 197,
     "Complex ID": 197,
-    "GTFS Stop ID": "H02",
+    id: "H02",
     "Division": "IND",
     "Line": "Rockaway",
     "Stop Name": "Aqueduct - N Conduit Av",
@@ -2576,7 +2576,7 @@
   {
     "Station ID": 198,
     "Complex ID": 198,
-    "GTFS Stop ID": "H03",
+    id: "H03",
     "Division": "IND",
     "Line": "Rockaway",
     "Stop Name": "Howard Beach - JFK Airport",
@@ -2589,7 +2589,7 @@
   {
     "Station ID": 199,
     "Complex ID": 199,
-    "GTFS Stop ID": "H04",
+    id: "H04",
     "Division": "IND",
     "Line": "Rockaway",
     "Stop Name": "Broad Channel",
@@ -2602,7 +2602,7 @@
   {
     "Station ID": 199,
     "Complex ID": 199,
-    "GTFS Stop ID": "H19",
+    id: "H19",
     "Division": "IND",
     "Line": "Rockaway",
     "Stop Name": "Broad Channel",
@@ -2615,7 +2615,7 @@
   {
     "Station ID": 200,
     "Complex ID": 200,
-    "GTFS Stop ID": "H12",
+    id: "H12",
     "Division": "IND",
     "Line": "Rockaway",
     "Stop Name": "Beach 90 St",
@@ -2628,7 +2628,7 @@
   {
     "Station ID": 201,
     "Complex ID": 201,
-    "GTFS Stop ID": "H13",
+    id: "H13",
     "Division": "IND",
     "Line": "Rockaway",
     "Stop Name": "Beach 98 St",
@@ -2641,7 +2641,7 @@
   {
     "Station ID": 202,
     "Complex ID": 202,
-    "GTFS Stop ID": "H14",
+    id: "H14",
     "Division": "IND",
     "Line": "Rockaway",
     "Stop Name": "Beach 105 St",
@@ -2654,7 +2654,7 @@
   {
     "Station ID": 203,
     "Complex ID": 203,
-    "GTFS Stop ID": "H15",
+    id: "H15",
     "Division": "IND",
     "Line": "Rockaway",
     "Stop Name": "Rockaway Park - Beach 116 St",
@@ -2667,7 +2667,7 @@
   {
     "Station ID": 204,
     "Complex ID": 204,
-    "GTFS Stop ID": "H06",
+    id: "H06",
     "Division": "IND",
     "Line": "Rockaway",
     "Stop Name": "Beach 67 St",
@@ -2680,7 +2680,7 @@
   {
     "Station ID": 205,
     "Complex ID": 205,
-    "GTFS Stop ID": "H07",
+    id: "H07",
     "Division": "IND",
     "Line": "Rockaway",
     "Stop Name": "Beach 60 St",
@@ -2693,7 +2693,7 @@
   {
     "Station ID": 206,
     "Complex ID": 206,
-    "GTFS Stop ID": "H08",
+    id: "H08",
     "Division": "IND",
     "Line": "Rockaway",
     "Stop Name": "Beach 44 St",
@@ -2706,7 +2706,7 @@
   {
     "Station ID": 207,
     "Complex ID": 207,
-    "GTFS Stop ID": "H09",
+    id: "H09",
     "Division": "IND",
     "Line": "Rockaway",
     "Stop Name": "Beach 36 St",
@@ -2719,7 +2719,7 @@
   {
     "Station ID": 208,
     "Complex ID": 208,
-    "GTFS Stop ID": "H10",
+    id: "H10",
     "Division": "IND",
     "Line": "Rockaway",
     "Stop Name": "Beach 25 St",
@@ -2732,7 +2732,7 @@
   {
     "Station ID": 209,
     "Complex ID": 209,
-    "GTFS Stop ID": "H11",
+    id: "H11",
     "Division": "IND",
     "Line": "Rockaway",
     "Stop Name": "Far Rockaway - Mott Av",
@@ -2745,7 +2745,7 @@
   {
     "Station ID": 210,
     "Complex ID": 210,
-    "GTFS Stop ID": "D01",
+    id: "D01",
     "Division": "IND",
     "Line": "Concourse",
     "Stop Name": "Norwood - 205 St",
@@ -2758,7 +2758,7 @@
   {
     "Station ID": 211,
     "Complex ID": 211,
-    "GTFS Stop ID": "D03",
+    id: "D03",
     "Division": "IND",
     "Line": "Concourse",
     "Stop Name": "Bedford Park Blvd",
@@ -2771,7 +2771,7 @@
   {
     "Station ID": 212,
     "Complex ID": 212,
-    "GTFS Stop ID": "D04",
+    id: "D04",
     "Division": "IND",
     "Line": "Concourse",
     "Stop Name": "Kingsbridge Rd",
@@ -2784,7 +2784,7 @@
   {
     "Station ID": 213,
     "Complex ID": 213,
-    "GTFS Stop ID": "D05",
+    id: "D05",
     "Division": "IND",
     "Line": "Concourse",
     "Stop Name": "Fordham Rd",
@@ -2797,7 +2797,7 @@
   {
     "Station ID": 214,
     "Complex ID": 214,
-    "GTFS Stop ID": "D06",
+    id: "D06",
     "Division": "IND",
     "Line": "Concourse",
     "Stop Name": "182-183 Sts",
@@ -2810,7 +2810,7 @@
   {
     "Station ID": 215,
     "Complex ID": 215,
-    "GTFS Stop ID": "D07",
+    id: "D07",
     "Division": "IND",
     "Line": "Concourse",
     "Stop Name": "Tremont Av",
@@ -2823,7 +2823,7 @@
   {
     "Station ID": 216,
     "Complex ID": 216,
-    "GTFS Stop ID": "D08",
+    id: "D08",
     "Division": "IND",
     "Line": "Concourse",
     "Stop Name": "174-175 Sts",
@@ -2836,7 +2836,7 @@
   {
     "Station ID": 217,
     "Complex ID": 217,
-    "GTFS Stop ID": "D09",
+    id: "D09",
     "Division": "IND",
     "Line": "Concourse",
     "Stop Name": "170 St",
@@ -2849,7 +2849,7 @@
   {
     "Station ID": 218,
     "Complex ID": 218,
-    "GTFS Stop ID": "D10",
+    id: "D10",
     "Division": "IND",
     "Line": "Concourse",
     "Stop Name": "167 St",
@@ -2862,7 +2862,7 @@
   {
     "Station ID": 219,
     "Complex ID": 604,
-    "GTFS Stop ID": "D11",
+    id: "D11",
     "Division": "IND",
     "Line": "Concourse",
     "Stop Name": "161 St - Yankee Stadium",
@@ -2875,7 +2875,7 @@
   {
     "Station ID": 220,
     "Complex ID": 220,
-    "GTFS Stop ID": "D12",
+    id: "D12",
     "Division": "IND",
     "Line": "Concourse",
     "Stop Name": "155 St",
@@ -2888,7 +2888,7 @@
   {
     "Station ID": 221,
     "Complex ID": 221,
-    "GTFS Stop ID": "B04",
+    id: "B04",
     "Division": "IND",
     "Line": "63rd St",
     "Stop Name": "21 St - Queensbridge",
@@ -2901,7 +2901,7 @@
   {
     "Station ID": 222,
     "Complex ID": 222,
-    "GTFS Stop ID": "B06",
+    id: "B06",
     "Division": "IND",
     "Line": "63rd St",
     "Stop Name": "Roosevelt Island",
@@ -2914,7 +2914,7 @@
   {
     "Station ID": 223,
     "Complex ID": 223,
-    "GTFS Stop ID": "B08",
+    id: "B08",
     "Division": "IND",
     "Line": "63rd St",
     "Stop Name": "Lexington Av/63 St",
@@ -2927,7 +2927,7 @@
   {
     "Station ID": 224,
     "Complex ID": 224,
-    "GTFS Stop ID": "B10",
+    id: "B10",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "57 St",
@@ -2940,7 +2940,7 @@
   {
     "Station ID": 225,
     "Complex ID": 225,
-    "GTFS Stop ID": "D15",
+    id: "D15",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "47-50 Sts - Rockefeller Ctr",
@@ -2953,7 +2953,7 @@
   {
     "Station ID": 226,
     "Complex ID": 609,
-    "GTFS Stop ID": "D16",
+    id: "D16",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "42 St - Bryant Pk",
@@ -2966,7 +2966,7 @@
   {
     "Station ID": 227,
     "Complex ID": 607,
-    "GTFS Stop ID": "D17",
+    id: "D17",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "34 St - Herald Sq",
@@ -2979,7 +2979,7 @@
   {
     "Station ID": 228,
     "Complex ID": 228,
-    "GTFS Stop ID": "D18",
+    id: "D18",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "23 St",
@@ -2992,7 +2992,7 @@
   {
     "Station ID": 229,
     "Complex ID": 601,
-    "GTFS Stop ID": "D19",
+    id: "D19",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "14 St",
@@ -3005,7 +3005,7 @@
   {
     "Station ID": 230,
     "Complex ID": 619,
-    "GTFS Stop ID": "D21",
+    id: "D21",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "Broadway-Lafayette St",
@@ -3018,7 +3018,7 @@
   {
     "Station ID": 231,
     "Complex ID": 231,
-    "GTFS Stop ID": "D22",
+    id: "D22",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "Grand St",
@@ -3031,7 +3031,7 @@
   {
     "Station ID": 232,
     "Complex ID": 232,
-    "GTFS Stop ID": "F14",
+    id: "F14",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "2 Av",
@@ -3044,7 +3044,7 @@
   {
     "Station ID": 233,
     "Complex ID": 625,
-    "GTFS Stop ID": "F15",
+    id: "F15",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "Delancey St",
@@ -3057,7 +3057,7 @@
   {
     "Station ID": 234,
     "Complex ID": 234,
-    "GTFS Stop ID": "F16",
+    id: "F16",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "East Broadway",
@@ -3070,7 +3070,7 @@
   {
     "Station ID": 235,
     "Complex ID": 235,
-    "GTFS Stop ID": "F18",
+    id: "F18",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "York St",
@@ -3083,7 +3083,7 @@
   {
     "Station ID": 236,
     "Complex ID": 236,
-    "GTFS Stop ID": "F20",
+    id: "F20",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "Bergen St",
@@ -3096,7 +3096,7 @@
   {
     "Station ID": 237,
     "Complex ID": 237,
-    "GTFS Stop ID": "F21",
+    id: "F21",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "Carroll St",
@@ -3109,7 +3109,7 @@
   {
     "Station ID": 238,
     "Complex ID": 238,
-    "GTFS Stop ID": "F22",
+    id: "F22",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "Smith - 9 Sts",
@@ -3122,7 +3122,7 @@
   {
     "Station ID": 239,
     "Complex ID": 608,
-    "GTFS Stop ID": "F23",
+    id: "F23",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "4 Av",
@@ -3135,7 +3135,7 @@
   {
     "Station ID": 240,
     "Complex ID": 240,
-    "GTFS Stop ID": "F24",
+    id: "F24",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "7 Av",
@@ -3148,7 +3148,7 @@
   {
     "Station ID": 241,
     "Complex ID": 241,
-    "GTFS Stop ID": "F25",
+    id: "F25",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "15 St - Prospect Park",
@@ -3161,7 +3161,7 @@
   {
     "Station ID": 242,
     "Complex ID": 242,
-    "GTFS Stop ID": "F26",
+    id: "F26",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "Fort Hamilton Pkwy",
@@ -3174,7 +3174,7 @@
   {
     "Station ID": 243,
     "Complex ID": 243,
-    "GTFS Stop ID": "F27",
+    id: "F27",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "Church Av",
@@ -3187,7 +3187,7 @@
   {
     "Station ID": 244,
     "Complex ID": 244,
-    "GTFS Stop ID": "F29",
+    id: "F29",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "Ditmas Av",
@@ -3200,7 +3200,7 @@
   {
     "Station ID": 245,
     "Complex ID": 245,
-    "GTFS Stop ID": "F30",
+    id: "F30",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "18 Av",
@@ -3213,7 +3213,7 @@
   {
     "Station ID": 246,
     "Complex ID": 246,
-    "GTFS Stop ID": "F31",
+    id: "F31",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "Avenue I",
@@ -3226,7 +3226,7 @@
   {
     "Station ID": 247,
     "Complex ID": 247,
-    "GTFS Stop ID": "F32",
+    id: "F32",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "Bay Pkwy",
@@ -3239,7 +3239,7 @@
   {
     "Station ID": 248,
     "Complex ID": 248,
-    "GTFS Stop ID": "F33",
+    id: "F33",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "Avenue N",
@@ -3252,7 +3252,7 @@
   {
     "Station ID": 249,
     "Complex ID": 249,
-    "GTFS Stop ID": "F34",
+    id: "F34",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "Avenue P",
@@ -3265,7 +3265,7 @@
   {
     "Station ID": 250,
     "Complex ID": 250,
-    "GTFS Stop ID": "F35",
+    id: "F35",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "Kings Hwy",
@@ -3278,7 +3278,7 @@
   {
     "Station ID": 251,
     "Complex ID": 251,
-    "GTFS Stop ID": "F36",
+    id: "F36",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "Avenue U",
@@ -3291,7 +3291,7 @@
   {
     "Station ID": 252,
     "Complex ID": 252,
-    "GTFS Stop ID": "F38",
+    id: "F38",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "Avenue X",
@@ -3304,7 +3304,7 @@
   {
     "Station ID": 253,
     "Complex ID": 253,
-    "GTFS Stop ID": "F39",
+    id: "F39",
     "Division": "IND",
     "Line": "6th Av - Culver",
     "Stop Name": "Neptune Av",
@@ -3317,7 +3317,7 @@
   {
     "Station ID": 254,
     "Complex ID": 254,
-    "GTFS Stop ID": "F01",
+    id: "F01",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "Jamaica - 179 St",
@@ -3330,7 +3330,7 @@
   {
     "Station ID": 255,
     "Complex ID": 255,
-    "GTFS Stop ID": "F02",
+    id: "F02",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "169 St",
@@ -3343,7 +3343,7 @@
   {
     "Station ID": 256,
     "Complex ID": 256,
-    "GTFS Stop ID": "F03",
+    id: "F03",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "Parsons Blvd",
@@ -3356,7 +3356,7 @@
   {
     "Station ID": 257,
     "Complex ID": 257,
-    "GTFS Stop ID": "F04",
+    id: "F04",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "Sutphin Blvd",
@@ -3369,7 +3369,7 @@
   {
     "Station ID": 258,
     "Complex ID": 258,
-    "GTFS Stop ID": "F05",
+    id: "F05",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "Briarwood - Van Wyck Blvd",
@@ -3382,7 +3382,7 @@
   {
     "Station ID": 259,
     "Complex ID": 259,
-    "GTFS Stop ID": "F06",
+    id: "F06",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "Kew Gardens - Union Tpke",
@@ -3395,7 +3395,7 @@
   {
     "Station ID": 260,
     "Complex ID": 260,
-    "GTFS Stop ID": "F07",
+    id: "F07",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "75 Av",
@@ -3408,7 +3408,7 @@
   {
     "Station ID": 261,
     "Complex ID": 261,
-    "GTFS Stop ID": "G08",
+    id: "G08",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "Forest Hills - 71 Av",
@@ -3421,7 +3421,7 @@
   {
     "Station ID": 262,
     "Complex ID": 262,
-    "GTFS Stop ID": "G09",
+    id: "G09",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "67 Av",
@@ -3434,7 +3434,7 @@
   {
     "Station ID": 263,
     "Complex ID": 263,
-    "GTFS Stop ID": "G10",
+    id: "G10",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "63 Dr - Rego Park",
@@ -3447,7 +3447,7 @@
   {
     "Station ID": 264,
     "Complex ID": 264,
-    "GTFS Stop ID": "G11",
+    id: "G11",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "Woodhaven Blvd",
@@ -3460,7 +3460,7 @@
   {
     "Station ID": 265,
     "Complex ID": 265,
-    "GTFS Stop ID": "G12",
+    id: "G12",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "Grand Av - Newtown",
@@ -3473,7 +3473,7 @@
   {
     "Station ID": 266,
     "Complex ID": 266,
-    "GTFS Stop ID": "G13",
+    id: "G13",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "Elmhurst Av",
@@ -3486,7 +3486,7 @@
   {
     "Station ID": 267,
     "Complex ID": 616,
-    "GTFS Stop ID": "G14",
+    id: "G14",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "Jackson Hts - Roosevelt Av",
@@ -3499,7 +3499,7 @@
   {
     "Station ID": 268,
     "Complex ID": 268,
-    "GTFS Stop ID": "G15",
+    id: "G15",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "65 St",
@@ -3512,7 +3512,7 @@
   {
     "Station ID": 269,
     "Complex ID": 269,
-    "GTFS Stop ID": "G16",
+    id: "G16",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "Northern Blvd",
@@ -3525,7 +3525,7 @@
   {
     "Station ID": 270,
     "Complex ID": 270,
-    "GTFS Stop ID": "G18",
+    id: "G18",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "46 St",
@@ -3538,7 +3538,7 @@
   {
     "Station ID": 271,
     "Complex ID": 271,
-    "GTFS Stop ID": "G19",
+    id: "G19",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "Steinway St",
@@ -3551,7 +3551,7 @@
   {
     "Station ID": 272,
     "Complex ID": 272,
-    "GTFS Stop ID": "G20",
+    id: "G20",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "36 St",
@@ -3564,7 +3564,7 @@
   {
     "Station ID": 273,
     "Complex ID": 273,
-    "GTFS Stop ID": "G21",
+    id: "G21",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "Queens Plaza",
@@ -3577,7 +3577,7 @@
   {
     "Station ID": 274,
     "Complex ID": 606,
-    "GTFS Stop ID": "F09",
+    id: "F09",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "Court Sq",
@@ -3590,7 +3590,7 @@
   {
     "Station ID": 275,
     "Complex ID": 612,
-    "GTFS Stop ID": "F11",
+    id: "F11",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "Lexington Av/53 St",
@@ -3603,7 +3603,7 @@
   {
     "Station ID": 276,
     "Complex ID": 276,
-    "GTFS Stop ID": "F12",
+    id: "F12",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "5 Av/53 St",
@@ -3616,7 +3616,7 @@
   {
     "Station ID": 277,
     "Complex ID": 277,
-    "GTFS Stop ID": "D14",
+    id: "D14",
     "Division": "IND",
     "Line": "Queens Blvd",
     "Stop Name": "7 Av",
@@ -3629,7 +3629,7 @@
   {
     "Station ID": 278,
     "Complex ID": 278,
-    "GTFS Stop ID": "G05",
+    id: "G05",
     "Division": "IND",
     "Line": "Queens - Archer",
     "Stop Name": "Jamaica Center - Parsons/Archer",
@@ -3642,7 +3642,7 @@
   {
     "Station ID": 279,
     "Complex ID": 279,
-    "GTFS Stop ID": "G06",
+    id: "G06",
     "Division": "IND",
     "Line": "Queens - Archer",
     "Stop Name": "Sutphin Blvd - Archer Av - JFK Airport",
@@ -3655,7 +3655,7 @@
   {
     "Station ID": 280,
     "Complex ID": 280,
-    "GTFS Stop ID": "G07",
+    id: "G07",
     "Division": "IND",
     "Line": "Queens - Archer",
     "Stop Name": "Jamaica - Van Wyck",
@@ -3668,7 +3668,7 @@
   {
     "Station ID": 281,
     "Complex ID": 606,
-    "GTFS Stop ID": "G22",
+    id: "G22",
     "Division": "IND",
     "Line": "Crosstown",
     "Stop Name": "Court Sq",
@@ -3681,7 +3681,7 @@
   {
     "Station ID": 282,
     "Complex ID": 282,
-    "GTFS Stop ID": "G24",
+    id: "G24",
     "Division": "IND",
     "Line": "Crosstown",
     "Stop Name": "21 St",
@@ -3694,7 +3694,7 @@
   {
     "Station ID": 283,
     "Complex ID": 283,
-    "GTFS Stop ID": "G26",
+    id: "G26",
     "Division": "IND",
     "Line": "Crosstown",
     "Stop Name": "Greenpoint Av",
@@ -3707,7 +3707,7 @@
   {
     "Station ID": 284,
     "Complex ID": 284,
-    "GTFS Stop ID": "G28",
+    id: "G28",
     "Division": "IND",
     "Line": "Crosstown",
     "Stop Name": "Nassau Av",
@@ -3720,7 +3720,7 @@
   {
     "Station ID": 285,
     "Complex ID": 629,
-    "GTFS Stop ID": "G29",
+    id: "G29",
     "Division": "IND",
     "Line": "Crosstown",
     "Stop Name": "Metropolitan Av",
@@ -3733,7 +3733,7 @@
   {
     "Station ID": 286,
     "Complex ID": 286,
-    "GTFS Stop ID": "G30",
+    id: "G30",
     "Division": "IND",
     "Line": "Crosstown",
     "Stop Name": "Broadway",
@@ -3746,7 +3746,7 @@
   {
     "Station ID": 287,
     "Complex ID": 287,
-    "GTFS Stop ID": "G31",
+    id: "G31",
     "Division": "IND",
     "Line": "Crosstown",
     "Stop Name": "Flushing Av",
@@ -3759,7 +3759,7 @@
   {
     "Station ID": 288,
     "Complex ID": 288,
-    "GTFS Stop ID": "G32",
+    id: "G32",
     "Division": "IND",
     "Line": "Crosstown",
     "Stop Name": "Myrtle - Willoughby Avs",
@@ -3772,7 +3772,7 @@
   {
     "Station ID": 289,
     "Complex ID": 289,
-    "GTFS Stop ID": "G33",
+    id: "G33",
     "Division": "IND",
     "Line": "Crosstown",
     "Stop Name": "Bedford - Nostrand Avs",
@@ -3785,7 +3785,7 @@
   {
     "Station ID": 290,
     "Complex ID": 290,
-    "GTFS Stop ID": "G34",
+    id: "G34",
     "Division": "IND",
     "Line": "Crosstown",
     "Stop Name": "Classon Av",
@@ -3798,7 +3798,7 @@
   {
     "Station ID": 291,
     "Complex ID": 291,
-    "GTFS Stop ID": "G35",
+    id: "G35",
     "Division": "IND",
     "Line": "Crosstown",
     "Stop Name": "Clinton - Washington Avs",
@@ -3811,7 +3811,7 @@
   {
     "Station ID": 292,
     "Complex ID": 292,
-    "GTFS Stop ID": "G36",
+    id: "G36",
     "Division": "IND",
     "Line": "Crosstown",
     "Stop Name": "Fulton St",
@@ -3824,7 +3824,7 @@
   {
     "Station ID": 293,
     "Complex ID": 293,
-    "GTFS Stop ID": 101,
+    id: 101,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "Van Cortlandt Park - 242 St",
@@ -3837,7 +3837,7 @@
   {
     "Station ID": 294,
     "Complex ID": 294,
-    "GTFS Stop ID": 103,
+    id: 103,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "238 St",
@@ -3850,7 +3850,7 @@
   {
     "Station ID": 295,
     "Complex ID": 295,
-    "GTFS Stop ID": 104,
+    id: 104,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "231 St",
@@ -3863,7 +3863,7 @@
   {
     "Station ID": 296,
     "Complex ID": 296,
-    "GTFS Stop ID": 106,
+    id: 106,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "Marble Hill - 225 St",
@@ -3876,7 +3876,7 @@
   {
     "Station ID": 297,
     "Complex ID": 297,
-    "GTFS Stop ID": 107,
+    id: 107,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "215 St",
@@ -3889,7 +3889,7 @@
   {
     "Station ID": 298,
     "Complex ID": 298,
-    "GTFS Stop ID": 108,
+    id: 108,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "207 St",
@@ -3902,7 +3902,7 @@
   {
     "Station ID": 299,
     "Complex ID": 299,
-    "GTFS Stop ID": 109,
+    id: 109,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "Dyckman St",
@@ -3915,7 +3915,7 @@
   {
     "Station ID": 300,
     "Complex ID": 300,
-    "GTFS Stop ID": 110,
+    id: 110,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "191 St",
@@ -3928,7 +3928,7 @@
   {
     "Station ID": 301,
     "Complex ID": 301,
-    "GTFS Stop ID": 111,
+    id: 111,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "181 St",
@@ -3941,7 +3941,7 @@
   {
     "Station ID": 302,
     "Complex ID": 605,
-    "GTFS Stop ID": 112,
+    id: 112,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "168 St - Washington Hts",
@@ -3954,7 +3954,7 @@
   {
     "Station ID": 303,
     "Complex ID": 303,
-    "GTFS Stop ID": 113,
+    id: 113,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "157 St",
@@ -3967,7 +3967,7 @@
   {
     "Station ID": 304,
     "Complex ID": 304,
-    "GTFS Stop ID": 114,
+    id: 114,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "145 St",
@@ -3980,7 +3980,7 @@
   {
     "Station ID": 305,
     "Complex ID": 305,
-    "GTFS Stop ID": 115,
+    id: 115,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "137 St - City College",
@@ -3993,7 +3993,7 @@
   {
     "Station ID": 306,
     "Complex ID": 306,
-    "GTFS Stop ID": 116,
+    id: 116,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "125 St",
@@ -4006,7 +4006,7 @@
   {
     "Station ID": 307,
     "Complex ID": 307,
-    "GTFS Stop ID": 117,
+    id: 117,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "116 St - Columbia University",
@@ -4019,7 +4019,7 @@
   {
     "Station ID": 308,
     "Complex ID": 308,
-    "GTFS Stop ID": 118,
+    id: 118,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "Cathedral Pkwy",
@@ -4032,7 +4032,7 @@
   {
     "Station ID": 309,
     "Complex ID": 309,
-    "GTFS Stop ID": 119,
+    id: 119,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "103 St",
@@ -4045,7 +4045,7 @@
   {
     "Station ID": 310,
     "Complex ID": 310,
-    "GTFS Stop ID": 120,
+    id: 120,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "96 St",
@@ -4058,7 +4058,7 @@
   {
     "Station ID": 311,
     "Complex ID": 311,
-    "GTFS Stop ID": 121,
+    id: 121,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "86 St",
@@ -4071,7 +4071,7 @@
   {
     "Station ID": 312,
     "Complex ID": 312,
-    "GTFS Stop ID": 122,
+    id: 122,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "79 St",
@@ -4084,7 +4084,7 @@
   {
     "Station ID": 313,
     "Complex ID": 313,
-    "GTFS Stop ID": 123,
+    id: 123,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "72 St",
@@ -4097,7 +4097,7 @@
   {
     "Station ID": 314,
     "Complex ID": 314,
-    "GTFS Stop ID": 124,
+    id: 124,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "66 St - Lincoln Center",
@@ -4110,7 +4110,7 @@
   {
     "Station ID": 315,
     "Complex ID": 614,
-    "GTFS Stop ID": 125,
+    id: 125,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "59 St - Columbus Circle",
@@ -4123,7 +4123,7 @@
   {
     "Station ID": 316,
     "Complex ID": 316,
-    "GTFS Stop ID": 126,
+    id: 126,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "50 St",
@@ -4136,7 +4136,7 @@
   {
     "Station ID": 317,
     "Complex ID": 611,
-    "GTFS Stop ID": 127,
+    id: 127,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "Times Sq - 42 St",
@@ -4149,7 +4149,7 @@
   {
     "Station ID": 318,
     "Complex ID": 318,
-    "GTFS Stop ID": 128,
+    id: 128,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "34 St - Penn Station",
@@ -4162,7 +4162,7 @@
   {
     "Station ID": 319,
     "Complex ID": 319,
-    "GTFS Stop ID": 129,
+    id: 129,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "28 St",
@@ -4175,7 +4175,7 @@
   {
     "Station ID": 320,
     "Complex ID": 320,
-    "GTFS Stop ID": 130,
+    id: 130,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "23 St",
@@ -4188,7 +4188,7 @@
   {
     "Station ID": 321,
     "Complex ID": 321,
-    "GTFS Stop ID": 131,
+    id: 131,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "18 St",
@@ -4201,7 +4201,7 @@
   {
     "Station ID": 322,
     "Complex ID": 601,
-    "GTFS Stop ID": 132,
+    id: 132,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "14 St",
@@ -4214,7 +4214,7 @@
   {
     "Station ID": 323,
     "Complex ID": 323,
-    "GTFS Stop ID": 133,
+    id: 133,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "Christopher St - Sheridan Sq",
@@ -4227,7 +4227,7 @@
   {
     "Station ID": 324,
     "Complex ID": 324,
-    "GTFS Stop ID": 134,
+    id: 134,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "Houston St",
@@ -4240,7 +4240,7 @@
   {
     "Station ID": 325,
     "Complex ID": 325,
-    "GTFS Stop ID": 135,
+    id: 135,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "Canal St",
@@ -4253,7 +4253,7 @@
   {
     "Station ID": 326,
     "Complex ID": 326,
-    "GTFS Stop ID": 136,
+    id: 136,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "Franklin St",
@@ -4266,7 +4266,7 @@
   {
     "Station ID": 327,
     "Complex ID": 327,
-    "GTFS Stop ID": 137,
+    id: 137,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "Chambers St",
@@ -4279,7 +4279,7 @@
   {
     "Station ID": 328,
     "Complex ID": 328,
-    "GTFS Stop ID": 138,
+    id: 138,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "Cortlandt St",
@@ -4292,7 +4292,7 @@
   {
     "Station ID": 329,
     "Complex ID": 329,
-    "GTFS Stop ID": 139,
+    id: 139,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "Rector St",
@@ -4305,7 +4305,7 @@
   {
     "Station ID": 330,
     "Complex ID": 635,
-    "GTFS Stop ID": 142,
+    id: 142,
     "Division": "IRT",
     "Line": "Broadway - 7Av",
     "Stop Name": "South Ferry",
@@ -4318,7 +4318,7 @@
   {
     "Station ID": 331,
     "Complex ID": 624,
-    "GTFS Stop ID": 228,
+    id: 228,
     "Division": "IRT",
     "Line": "Clark St",
     "Stop Name": "Park Pl",
@@ -4331,7 +4331,7 @@
   {
     "Station ID": 332,
     "Complex ID": 628,
-    "GTFS Stop ID": 229,
+    id: 229,
     "Division": "IRT",
     "Line": "Clark St",
     "Stop Name": "Fulton St",
@@ -4344,7 +4344,7 @@
   {
     "Station ID": 333,
     "Complex ID": 333,
-    "GTFS Stop ID": 230,
+    id: 230,
     "Division": "IRT",
     "Line": "Clark St",
     "Stop Name": "Wall St",
@@ -4357,7 +4357,7 @@
   {
     "Station ID": 334,
     "Complex ID": 334,
-    "GTFS Stop ID": 231,
+    id: 231,
     "Division": "IRT",
     "Line": "Clark St",
     "Stop Name": "Clark St",
@@ -4370,7 +4370,7 @@
   {
     "Station ID": 335,
     "Complex ID": 620,
-    "GTFS Stop ID": 232,
+    id: 232,
     "Division": "IRT",
     "Line": "Clark St",
     "Stop Name": "Borough Hall",
@@ -4383,7 +4383,7 @@
   {
     "Station ID": 336,
     "Complex ID": 336,
-    "GTFS Stop ID": 233,
+    id: 233,
     "Division": "IRT",
     "Line": "Eastern Pky",
     "Stop Name": "Hoyt St",
@@ -4396,7 +4396,7 @@
   {
     "Station ID": 337,
     "Complex ID": 337,
-    "GTFS Stop ID": 234,
+    id: 234,
     "Division": "IRT",
     "Line": "Eastern Pky",
     "Stop Name": "Nevins St",
@@ -4409,7 +4409,7 @@
   {
     "Station ID": 338,
     "Complex ID": 617,
-    "GTFS Stop ID": 235,
+    id: 235,
     "Division": "IRT",
     "Line": "Eastern Pky",
     "Stop Name": "Atlantic Av - Barclays Ctr",
@@ -4422,7 +4422,7 @@
   {
     "Station ID": 339,
     "Complex ID": 339,
-    "GTFS Stop ID": 236,
+    id: 236,
     "Division": "IRT",
     "Line": "Eastern Pky",
     "Stop Name": "Bergen St",
@@ -4435,7 +4435,7 @@
   {
     "Station ID": 340,
     "Complex ID": 340,
-    "GTFS Stop ID": 237,
+    id: 237,
     "Division": "IRT",
     "Line": "Eastern Pky",
     "Stop Name": "Grand Army Plaza",
@@ -4448,7 +4448,7 @@
   {
     "Station ID": 341,
     "Complex ID": 341,
-    "GTFS Stop ID": 238,
+    id: 238,
     "Division": "IRT",
     "Line": "Eastern Pky",
     "Stop Name": "Eastern Pkwy - Brooklyn Museum",
@@ -4461,7 +4461,7 @@
   {
     "Station ID": 342,
     "Complex ID": 626,
-    "GTFS Stop ID": 239,
+    id: 239,
     "Division": "IRT",
     "Line": "Eastern Pky",
     "Stop Name": "Franklin Av",
@@ -4474,7 +4474,7 @@
   {
     "Station ID": 343,
     "Complex ID": 343,
-    "GTFS Stop ID": 248,
+    id: 248,
     "Division": "IRT",
     "Line": "Eastern Pky",
     "Stop Name": "Nostrand Av",
@@ -4487,7 +4487,7 @@
   {
     "Station ID": 344,
     "Complex ID": 344,
-    "GTFS Stop ID": 249,
+    id: 249,
     "Division": "IRT",
     "Line": "Eastern Pky",
     "Stop Name": "Kingston Av",
@@ -4500,7 +4500,7 @@
   {
     "Station ID": 345,
     "Complex ID": 345,
-    "GTFS Stop ID": 250,
+    id: 250,
     "Division": "IRT",
     "Line": "Eastern Pky",
     "Stop Name": "Crown Hts - Utica Av",
@@ -4513,7 +4513,7 @@
   {
     "Station ID": 346,
     "Complex ID": 346,
-    "GTFS Stop ID": 251,
+    id: 251,
     "Division": "IRT",
     "Line": "Eastern Pky",
     "Stop Name": "Sutter Av - Rutland Rd",
@@ -4526,7 +4526,7 @@
   {
     "Station ID": 347,
     "Complex ID": 347,
-    "GTFS Stop ID": 252,
+    id: 252,
     "Division": "IRT",
     "Line": "Eastern Pky",
     "Stop Name": "Saratoga Av",
@@ -4539,7 +4539,7 @@
   {
     "Station ID": 348,
     "Complex ID": 348,
-    "GTFS Stop ID": 253,
+    id: 253,
     "Division": "IRT",
     "Line": "Eastern Pky",
     "Stop Name": "Rockaway Av",
@@ -4552,7 +4552,7 @@
   {
     "Station ID": 349,
     "Complex ID": 349,
-    "GTFS Stop ID": 254,
+    id: 254,
     "Division": "IRT",
     "Line": "Eastern Pky",
     "Stop Name": "Junius St",
@@ -4565,7 +4565,7 @@
   {
     "Station ID": 350,
     "Complex ID": 350,
-    "GTFS Stop ID": 255,
+    id: 255,
     "Division": "IRT",
     "Line": "Eastern Pky",
     "Stop Name": "Pennsylvania Av",
@@ -4578,7 +4578,7 @@
   {
     "Station ID": 351,
     "Complex ID": 351,
-    "GTFS Stop ID": 256,
+    id: 256,
     "Division": "IRT",
     "Line": "Eastern Pky",
     "Stop Name": "Van Siclen Av",
@@ -4591,7 +4591,7 @@
   {
     "Station ID": 352,
     "Complex ID": 352,
-    "GTFS Stop ID": 257,
+    id: 257,
     "Division": "IRT",
     "Line": "Eastern Pky",
     "Stop Name": "New Lots Av",
@@ -4604,7 +4604,7 @@
   {
     "Station ID": 353,
     "Complex ID": 353,
-    "GTFS Stop ID": 241,
+    id: 241,
     "Division": "IRT",
     "Line": "Nostrand",
     "Stop Name": "President St",
@@ -4617,7 +4617,7 @@
   {
     "Station ID": 354,
     "Complex ID": 354,
-    "GTFS Stop ID": 242,
+    id: 242,
     "Division": "IRT",
     "Line": "Nostrand",
     "Stop Name": "Sterling St",
@@ -4630,7 +4630,7 @@
   {
     "Station ID": 355,
     "Complex ID": 355,
-    "GTFS Stop ID": 243,
+    id: 243,
     "Division": "IRT",
     "Line": "Nostrand",
     "Stop Name": "Winthrop St",
@@ -4643,7 +4643,7 @@
   {
     "Station ID": 356,
     "Complex ID": 356,
-    "GTFS Stop ID": 244,
+    id: 244,
     "Division": "IRT",
     "Line": "Nostrand",
     "Stop Name": "Church Av",
@@ -4656,7 +4656,7 @@
   {
     "Station ID": 357,
     "Complex ID": 357,
-    "GTFS Stop ID": 245,
+    id: 245,
     "Division": "IRT",
     "Line": "Nostrand",
     "Stop Name": "Beverly Rd",
@@ -4669,7 +4669,7 @@
   {
     "Station ID": 358,
     "Complex ID": 358,
-    "GTFS Stop ID": 246,
+    id: 246,
     "Division": "IRT",
     "Line": "Nostrand",
     "Stop Name": "Newkirk Av",
@@ -4682,7 +4682,7 @@
   {
     "Station ID": 359,
     "Complex ID": 359,
-    "GTFS Stop ID": 247,
+    id: 247,
     "Division": "IRT",
     "Line": "Nostrand",
     "Stop Name": "Flatbush Av - Brooklyn College",
@@ -4695,7 +4695,7 @@
   {
     "Station ID": 360,
     "Complex ID": 360,
-    "GTFS Stop ID": 601,
+    id: 601,
     "Division": "IRT",
     "Line": "Pelham",
     "Stop Name": "Pelham Bay Park",
@@ -4708,7 +4708,7 @@
   {
     "Station ID": 361,
     "Complex ID": 361,
-    "GTFS Stop ID": 602,
+    id: 602,
     "Division": "IRT",
     "Line": "Pelham",
     "Stop Name": "Buhre Av",
@@ -4721,7 +4721,7 @@
   {
     "Station ID": 362,
     "Complex ID": 362,
-    "GTFS Stop ID": 603,
+    id: 603,
     "Division": "IRT",
     "Line": "Pelham",
     "Stop Name": "Middletown Rd",
@@ -4734,7 +4734,7 @@
   {
     "Station ID": 363,
     "Complex ID": 363,
-    "GTFS Stop ID": 604,
+    id: 604,
     "Division": "IRT",
     "Line": "Pelham",
     "Stop Name": "Westchester Sq - E Tremont Av",
@@ -4747,7 +4747,7 @@
   {
     "Station ID": 364,
     "Complex ID": 364,
-    "GTFS Stop ID": 606,
+    id: 606,
     "Division": "IRT",
     "Line": "Pelham",
     "Stop Name": "Zerega Av",
@@ -4760,7 +4760,7 @@
   {
     "Station ID": 365,
     "Complex ID": 365,
-    "GTFS Stop ID": 607,
+    id: 607,
     "Division": "IRT",
     "Line": "Pelham",
     "Stop Name": "Castle Hill Av",
@@ -4773,7 +4773,7 @@
   {
     "Station ID": 366,
     "Complex ID": 366,
-    "GTFS Stop ID": 608,
+    id: 608,
     "Division": "IRT",
     "Line": "Pelham",
     "Stop Name": "Parkchester",
@@ -4786,7 +4786,7 @@
   {
     "Station ID": 367,
     "Complex ID": 367,
-    "GTFS Stop ID": 609,
+    id: 609,
     "Division": "IRT",
     "Line": "Pelham",
     "Stop Name": "St Lawrence Av",
@@ -4799,7 +4799,7 @@
   {
     "Station ID": 368,
     "Complex ID": 368,
-    "GTFS Stop ID": 610,
+    id: 610,
     "Division": "IRT",
     "Line": "Pelham",
     "Stop Name": "Morrison Av- Sound View",
@@ -4812,7 +4812,7 @@
   {
     "Station ID": 369,
     "Complex ID": 369,
-    "GTFS Stop ID": 611,
+    id: 611,
     "Division": "IRT",
     "Line": "Pelham",
     "Stop Name": "Elder Av",
@@ -4825,7 +4825,7 @@
   {
     "Station ID": 370,
     "Complex ID": 370,
-    "GTFS Stop ID": 612,
+    id: 612,
     "Division": "IRT",
     "Line": "Pelham",
     "Stop Name": "Whitlock Av",
@@ -4838,7 +4838,7 @@
   {
     "Station ID": 371,
     "Complex ID": 371,
-    "GTFS Stop ID": 613,
+    id: 613,
     "Division": "IRT",
     "Line": "Pelham",
     "Stop Name": "Hunts Point Av",
@@ -4851,7 +4851,7 @@
   {
     "Station ID": 372,
     "Complex ID": 372,
-    "GTFS Stop ID": 614,
+    id: 614,
     "Division": "IRT",
     "Line": "Pelham",
     "Stop Name": "Longwood Av",
@@ -4864,7 +4864,7 @@
   {
     "Station ID": 373,
     "Complex ID": 373,
-    "GTFS Stop ID": 615,
+    id: 615,
     "Division": "IRT",
     "Line": "Pelham",
     "Stop Name": "E 149 St",
@@ -4877,7 +4877,7 @@
   {
     "Station ID": 374,
     "Complex ID": 374,
-    "GTFS Stop ID": 616,
+    id: 616,
     "Division": "IRT",
     "Line": "Pelham",
     "Stop Name": "E 143 St - St Mary's St",
@@ -4890,7 +4890,7 @@
   {
     "Station ID": 375,
     "Complex ID": 375,
-    "GTFS Stop ID": 617,
+    id: 617,
     "Division": "IRT",
     "Line": "Pelham",
     "Stop Name": "Cypress Av",
@@ -4903,7 +4903,7 @@
   {
     "Station ID": 376,
     "Complex ID": 376,
-    "GTFS Stop ID": 618,
+    id: 618,
     "Division": "IRT",
     "Line": "Pelham",
     "Stop Name": "Brook Av",
@@ -4916,7 +4916,7 @@
   {
     "Station ID": 377,
     "Complex ID": 377,
-    "GTFS Stop ID": 619,
+    id: 619,
     "Division": "IRT",
     "Line": "Pelham",
     "Stop Name": "3 Av - 138 St",
@@ -4929,7 +4929,7 @@
   {
     "Station ID": 378,
     "Complex ID": 378,
-    "GTFS Stop ID": 401,
+    id: 401,
     "Division": "IRT",
     "Line": "Jerome Av",
     "Stop Name": "Woodlawn",
@@ -4942,7 +4942,7 @@
   {
     "Station ID": 379,
     "Complex ID": 379,
-    "GTFS Stop ID": 402,
+    id: 402,
     "Division": "IRT",
     "Line": "Jerome Av",
     "Stop Name": "Mosholu Pkwy",
@@ -4955,7 +4955,7 @@
   {
     "Station ID": 380,
     "Complex ID": 380,
-    "GTFS Stop ID": 405,
+    id: 405,
     "Division": "IRT",
     "Line": "Jerome Av",
     "Stop Name": "Bedford Park Blvd - Lehman College",
@@ -4968,7 +4968,7 @@
   {
     "Station ID": 381,
     "Complex ID": 381,
-    "GTFS Stop ID": 406,
+    id: 406,
     "Division": "IRT",
     "Line": "Jerome Av",
     "Stop Name": "Kingsbridge Rd",
@@ -4981,7 +4981,7 @@
   {
     "Station ID": 382,
     "Complex ID": 382,
-    "GTFS Stop ID": 407,
+    id: 407,
     "Division": "IRT",
     "Line": "Jerome Av",
     "Stop Name": "Fordham Rd",
@@ -4994,7 +4994,7 @@
   {
     "Station ID": 383,
     "Complex ID": 383,
-    "GTFS Stop ID": 408,
+    id: 408,
     "Division": "IRT",
     "Line": "Jerome Av",
     "Stop Name": "183 St",
@@ -5007,7 +5007,7 @@
   {
     "Station ID": 384,
     "Complex ID": 384,
-    "GTFS Stop ID": 409,
+    id: 409,
     "Division": "IRT",
     "Line": "Jerome Av",
     "Stop Name": "Burnside Av",
@@ -5020,7 +5020,7 @@
   {
     "Station ID": 385,
     "Complex ID": 385,
-    "GTFS Stop ID": 410,
+    id: 410,
     "Division": "IRT",
     "Line": "Jerome Av",
     "Stop Name": "176 St",
@@ -5033,7 +5033,7 @@
   {
     "Station ID": 386,
     "Complex ID": 386,
-    "GTFS Stop ID": 411,
+    id: 411,
     "Division": "IRT",
     "Line": "Jerome Av",
     "Stop Name": "Mt Eden Av",
@@ -5046,7 +5046,7 @@
   {
     "Station ID": 387,
     "Complex ID": 387,
-    "GTFS Stop ID": 412,
+    id: 412,
     "Division": "IRT",
     "Line": "Jerome Av",
     "Stop Name": "170 St",
@@ -5059,7 +5059,7 @@
   {
     "Station ID": 388,
     "Complex ID": 388,
-    "GTFS Stop ID": 413,
+    id: 413,
     "Division": "IRT",
     "Line": "Jerome Av",
     "Stop Name": "167 St",
@@ -5072,7 +5072,7 @@
   {
     "Station ID": 389,
     "Complex ID": 604,
-    "GTFS Stop ID": 414,
+    id: 414,
     "Division": "IRT",
     "Line": "Jerome Av",
     "Stop Name": "161 St - Yankee Stadium",
@@ -5085,7 +5085,7 @@
   {
     "Station ID": 390,
     "Complex ID": 603,
-    "GTFS Stop ID": 415,
+    id: 415,
     "Division": "IRT",
     "Line": "Jerome Av",
     "Stop Name": "149 St - Grand Concourse",
@@ -5098,7 +5098,7 @@
   {
     "Station ID": 391,
     "Complex ID": 391,
-    "GTFS Stop ID": 416,
+    id: 416,
     "Division": "IRT",
     "Line": "Jerome Av",
     "Stop Name": "138 St - Grand Concourse",
@@ -5111,7 +5111,7 @@
   {
     "Station ID": 392,
     "Complex ID": 392,
-    "GTFS Stop ID": 621,
+    id: 621,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "125 St",
@@ -5124,7 +5124,7 @@
   {
     "Station ID": 393,
     "Complex ID": 393,
-    "GTFS Stop ID": 622,
+    id: 622,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "116 St",
@@ -5137,7 +5137,7 @@
   {
     "Station ID": 394,
     "Complex ID": 394,
-    "GTFS Stop ID": 623,
+    id: 623,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "110 St",
@@ -5150,7 +5150,7 @@
   {
     "Station ID": 395,
     "Complex ID": 395,
-    "GTFS Stop ID": 624,
+    id: 624,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "103 St",
@@ -5163,7 +5163,7 @@
   {
     "Station ID": 396,
     "Complex ID": 396,
-    "GTFS Stop ID": 625,
+    id: 625,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "96 St",
@@ -5176,7 +5176,7 @@
   {
     "Station ID": 397,
     "Complex ID": 397,
-    "GTFS Stop ID": 626,
+    id: 626,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "86 St",
@@ -5189,7 +5189,7 @@
   {
     "Station ID": 398,
     "Complex ID": 398,
-    "GTFS Stop ID": 627,
+    id: 627,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "77 St",
@@ -5202,7 +5202,7 @@
   {
     "Station ID": 399,
     "Complex ID": 399,
-    "GTFS Stop ID": 628,
+    id: 628,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "68 St - Hunter College",
@@ -5215,7 +5215,7 @@
   {
     "Station ID": 400,
     "Complex ID": 613,
-    "GTFS Stop ID": 629,
+    id: 629,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "59 St",
@@ -5228,7 +5228,7 @@
   {
     "Station ID": 401,
     "Complex ID": 612,
-    "GTFS Stop ID": 630,
+    id: 630,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "51 St",
@@ -5241,7 +5241,7 @@
   {
     "Station ID": 402,
     "Complex ID": 610,
-    "GTFS Stop ID": 631,
+    id: 631,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "Grand Central - 42 St",
@@ -5254,7 +5254,7 @@
   {
     "Station ID": 403,
     "Complex ID": 403,
-    "GTFS Stop ID": 632,
+    id: 632,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "33 St",
@@ -5267,7 +5267,7 @@
   {
     "Station ID": 404,
     "Complex ID": 404,
-    "GTFS Stop ID": 633,
+    id: 633,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "28 St",
@@ -5280,7 +5280,7 @@
   {
     "Station ID": 405,
     "Complex ID": 405,
-    "GTFS Stop ID": 634,
+    id: 634,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "23 St",
@@ -5293,7 +5293,7 @@
   {
     "Station ID": 406,
     "Complex ID": 602,
-    "GTFS Stop ID": 635,
+    id: 635,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "14 St - Union Sq",
@@ -5306,7 +5306,7 @@
   {
     "Station ID": 407,
     "Complex ID": 407,
-    "GTFS Stop ID": 636,
+    id: 636,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "Astor Pl",
@@ -5319,7 +5319,7 @@
   {
     "Station ID": 408,
     "Complex ID": 619,
-    "GTFS Stop ID": 637,
+    id: 637,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "Bleecker St",
@@ -5332,7 +5332,7 @@
   {
     "Station ID": 409,
     "Complex ID": 409,
-    "GTFS Stop ID": 638,
+    id: 638,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "Spring St",
@@ -5345,7 +5345,7 @@
   {
     "Station ID": 410,
     "Complex ID": 623,
-    "GTFS Stop ID": 639,
+    id: 639,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "Canal St",
@@ -5358,7 +5358,7 @@
   {
     "Station ID": 411,
     "Complex ID": 622,
-    "GTFS Stop ID": 640,
+    id: 640,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "Brooklyn Bridge - City Hall",
@@ -5371,7 +5371,7 @@
   {
     "Station ID": 412,
     "Complex ID": 628,
-    "GTFS Stop ID": 418,
+    id: 418,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "Fulton St",
@@ -5384,7 +5384,7 @@
   {
     "Station ID": 413,
     "Complex ID": 413,
-    "GTFS Stop ID": 419,
+    id: 419,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "Wall St",
@@ -5397,7 +5397,7 @@
   {
     "Station ID": 414,
     "Complex ID": 414,
-    "GTFS Stop ID": 420,
+    id: 420,
     "Division": "IRT",
     "Line": "Lexington Av",
     "Stop Name": "Bowling Green",
@@ -5410,7 +5410,7 @@
   {
     "Station ID": 415,
     "Complex ID": 620,
-    "GTFS Stop ID": 423,
+    id: 423,
     "Division": "IRT",
     "Line": "Eastern Pky",
     "Stop Name": "Borough Hall",
@@ -5423,7 +5423,7 @@
   {
     "Station ID": 416,
     "Complex ID": 416,
-    "GTFS Stop ID": 201,
+    id: 201,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "Wakefield - 241 St",
@@ -5436,7 +5436,7 @@
   {
     "Station ID": 417,
     "Complex ID": 417,
-    "GTFS Stop ID": 204,
+    id: 204,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "Nereid Av",
@@ -5449,7 +5449,7 @@
   {
     "Station ID": 418,
     "Complex ID": 418,
-    "GTFS Stop ID": 205,
+    id: 205,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "233 St",
@@ -5462,7 +5462,7 @@
   {
     "Station ID": 419,
     "Complex ID": 419,
-    "GTFS Stop ID": 206,
+    id: 206,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "225 St",
@@ -5475,7 +5475,7 @@
   {
     "Station ID": 420,
     "Complex ID": 420,
-    "GTFS Stop ID": 207,
+    id: 207,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "219 St",
@@ -5488,7 +5488,7 @@
   {
     "Station ID": 421,
     "Complex ID": 421,
-    "GTFS Stop ID": 208,
+    id: 208,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "Gun Hill Rd",
@@ -5501,7 +5501,7 @@
   {
     "Station ID": 422,
     "Complex ID": 422,
-    "GTFS Stop ID": 209,
+    id: 209,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "Burke Av",
@@ -5514,7 +5514,7 @@
   {
     "Station ID": 423,
     "Complex ID": 423,
-    "GTFS Stop ID": 210,
+    id: 210,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "Allerton Av",
@@ -5527,7 +5527,7 @@
   {
     "Station ID": 424,
     "Complex ID": 424,
-    "GTFS Stop ID": 211,
+    id: 211,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "Pelham Pkwy",
@@ -5540,7 +5540,7 @@
   {
     "Station ID": 425,
     "Complex ID": 425,
-    "GTFS Stop ID": 212,
+    id: 212,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "Bronx Park East",
@@ -5553,7 +5553,7 @@
   {
     "Station ID": 426,
     "Complex ID": 426,
-    "GTFS Stop ID": 213,
+    id: 213,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "E 180 St",
@@ -5566,7 +5566,7 @@
   {
     "Station ID": 427,
     "Complex ID": 427,
-    "GTFS Stop ID": 214,
+    id: 214,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "West Farms Sq - E Tremont Av",
@@ -5579,7 +5579,7 @@
   {
     "Station ID": 428,
     "Complex ID": 428,
-    "GTFS Stop ID": 215,
+    id: 215,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "174 St",
@@ -5592,7 +5592,7 @@
   {
     "Station ID": 429,
     "Complex ID": 429,
-    "GTFS Stop ID": 216,
+    id: 216,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "Freeman St",
@@ -5605,7 +5605,7 @@
   {
     "Station ID": 430,
     "Complex ID": 430,
-    "GTFS Stop ID": 217,
+    id: 217,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "Simpson St",
@@ -5618,7 +5618,7 @@
   {
     "Station ID": 431,
     "Complex ID": 431,
-    "GTFS Stop ID": 218,
+    id: 218,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "Intervale Av",
@@ -5631,7 +5631,7 @@
   {
     "Station ID": 432,
     "Complex ID": 432,
-    "GTFS Stop ID": 219,
+    id: 219,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "Prospect Av",
@@ -5644,7 +5644,7 @@
   {
     "Station ID": 433,
     "Complex ID": 433,
-    "GTFS Stop ID": 220,
+    id: 220,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "Jackson Av",
@@ -5657,7 +5657,7 @@
   {
     "Station ID": 434,
     "Complex ID": 434,
-    "GTFS Stop ID": 221,
+    id: 221,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "3 Av - 149 St",
@@ -5670,7 +5670,7 @@
   {
     "Station ID": 435,
     "Complex ID": 603,
-    "GTFS Stop ID": 222,
+    id: 222,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "149 St - Grand Concourse",
@@ -5683,7 +5683,7 @@
   {
     "Station ID": 436,
     "Complex ID": 436,
-    "GTFS Stop ID": 301,
+    id: 301,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "Harlem - 148 St",
@@ -5696,7 +5696,7 @@
   {
     "Station ID": 437,
     "Complex ID": 437,
-    "GTFS Stop ID": 302,
+    id: 302,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "145 St",
@@ -5709,7 +5709,7 @@
   {
     "Station ID": 438,
     "Complex ID": 438,
-    "GTFS Stop ID": 224,
+    id: 224,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "135 St",
@@ -5722,7 +5722,7 @@
   {
     "Station ID": 439,
     "Complex ID": 439,
-    "GTFS Stop ID": 225,
+    id: 225,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "125 St",
@@ -5735,7 +5735,7 @@
   {
     "Station ID": 440,
     "Complex ID": 440,
-    "GTFS Stop ID": 226,
+    id: 226,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "116 St",
@@ -5748,7 +5748,7 @@
   {
     "Station ID": 441,
     "Complex ID": 441,
-    "GTFS Stop ID": 227,
+    id: 227,
     "Division": "IRT",
     "Line": "Lenox - White Plains Rd",
     "Stop Name": "Central Park North (110 St)",
@@ -5761,7 +5761,7 @@
   {
     "Station ID": 442,
     "Complex ID": 442,
-    "GTFS Stop ID": 501,
+    id: 501,
     "Division": "IRT",
     "Line": "Dyre Av",
     "Stop Name": "Eastchester - Dyre Av",
@@ -5774,7 +5774,7 @@
   {
     "Station ID": 443,
     "Complex ID": 443,
-    "GTFS Stop ID": 502,
+    id: 502,
     "Division": "IRT",
     "Line": "Dyre Av",
     "Stop Name": "Baychester Av",
@@ -5787,7 +5787,7 @@
   {
     "Station ID": 444,
     "Complex ID": 444,
-    "GTFS Stop ID": 503,
+    id: 503,
     "Division": "IRT",
     "Line": "Dyre Av",
     "Stop Name": "Gun Hill Rd",
@@ -5800,7 +5800,7 @@
   {
     "Station ID": 445,
     "Complex ID": 445,
-    "GTFS Stop ID": 504,
+    id: 504,
     "Division": "IRT",
     "Line": "Dyre Av",
     "Stop Name": "Pelham Pkwy",
@@ -5813,7 +5813,7 @@
   {
     "Station ID": 446,
     "Complex ID": 446,
-    "GTFS Stop ID": 505,
+    id: 505,
     "Division": "IRT",
     "Line": "Dyre Av",
     "Stop Name": "Morris Park",
@@ -5826,7 +5826,7 @@
   {
     "Station ID": 447,
     "Complex ID": 447,
-    "GTFS Stop ID": 701,
+    id: 701,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "Flushing - Main St",
@@ -5839,7 +5839,7 @@
   {
     "Station ID": 448,
     "Complex ID": 448,
-    "GTFS Stop ID": 702,
+    id: 702,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "Mets - Willets Point",
@@ -5852,7 +5852,7 @@
   {
     "Station ID": 449,
     "Complex ID": 449,
-    "GTFS Stop ID": 705,
+    id: 705,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "111 St",
@@ -5865,7 +5865,7 @@
   {
     "Station ID": 450,
     "Complex ID": 450,
-    "GTFS Stop ID": 706,
+    id: 706,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "103 St - Corona Plaza",
@@ -5878,7 +5878,7 @@
   {
     "Station ID": 451,
     "Complex ID": 451,
-    "GTFS Stop ID": 707,
+    id: 707,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "Junction Blvd",
@@ -5891,7 +5891,7 @@
   {
     "Station ID": 452,
     "Complex ID": 452,
-    "GTFS Stop ID": 708,
+    id: 708,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "90 St - Elmhurst Av",
@@ -5904,7 +5904,7 @@
   {
     "Station ID": 453,
     "Complex ID": 453,
-    "GTFS Stop ID": 709,
+    id: 709,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "82 St - Jackson Hts",
@@ -5917,7 +5917,7 @@
   {
     "Station ID": 454,
     "Complex ID": 616,
-    "GTFS Stop ID": 710,
+    id: 710,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "74 St - Broadway",
@@ -5930,7 +5930,7 @@
   {
     "Station ID": 455,
     "Complex ID": 455,
-    "GTFS Stop ID": 711,
+    id: 711,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "69 St",
@@ -5943,7 +5943,7 @@
   {
     "Station ID": 456,
     "Complex ID": 456,
-    "GTFS Stop ID": 712,
+    id: 712,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "Woodside - 61 St",
@@ -5956,7 +5956,7 @@
   {
     "Station ID": 457,
     "Complex ID": 457,
-    "GTFS Stop ID": 713,
+    id: 713,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "52 St",
@@ -5969,7 +5969,7 @@
   {
     "Station ID": 458,
     "Complex ID": 458,
-    "GTFS Stop ID": 714,
+    id: 714,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "46 St",
@@ -5982,7 +5982,7 @@
   {
     "Station ID": 459,
     "Complex ID": 459,
-    "GTFS Stop ID": 715,
+    id: 715,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "40 St",
@@ -5995,7 +5995,7 @@
   {
     "Station ID": 460,
     "Complex ID": 460,
-    "GTFS Stop ID": 716,
+    id: 716,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "33 St",
@@ -6008,7 +6008,7 @@
   {
     "Station ID": 461,
     "Complex ID": 461,
-    "GTFS Stop ID": 718,
+    id: 718,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "Queensboro Plaza",
@@ -6021,7 +6021,7 @@
   {
     "Station ID": 461,
     "Complex ID": 461,
-    "GTFS Stop ID": "R09",
+    id: "R09",
     "Division": "BMT",
     "Line": "Astoria",
     "Stop Name": "Queensboro Plaza",
@@ -6034,7 +6034,7 @@
   {
     "Station ID": 462,
     "Complex ID": 606,
-    "GTFS Stop ID": 719,
+    id: 719,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "Court Sq",
@@ -6047,7 +6047,7 @@
   {
     "Station ID": 463,
     "Complex ID": 463,
-    "GTFS Stop ID": 720,
+    id: 720,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "Hunters Point Av",
@@ -6060,7 +6060,7 @@
   {
     "Station ID": 464,
     "Complex ID": 464,
-    "GTFS Stop ID": 721,
+    id: 721,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "Vernon Blvd - Jackson Av",
@@ -6073,7 +6073,7 @@
   {
     "Station ID": 465,
     "Complex ID": 610,
-    "GTFS Stop ID": 723,
+    id: 723,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "Grand Central - 42 St",
@@ -6086,7 +6086,7 @@
   {
     "Station ID": 466,
     "Complex ID": 609,
-    "GTFS Stop ID": 724,
+    id: 724,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "5 Av",
@@ -6099,7 +6099,7 @@
   {
     "Station ID": 467,
     "Complex ID": 611,
-    "GTFS Stop ID": 725,
+    id: 725,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "Times Sq - 42 St",
@@ -6112,7 +6112,7 @@
   {
     "Station ID": 468,
     "Complex ID": 611,
-    "GTFS Stop ID": 902,
+    id: 902,
     "Division": "IRT",
     "Line": "Lexington - Shuttle",
     "Stop Name": "Times Sq - 42 St",
@@ -6125,7 +6125,7 @@
   {
     "Station ID": 469,
     "Complex ID": 610,
-    "GTFS Stop ID": 901,
+    id: 901,
     "Division": "IRT",
     "Line": "Lexington - Shuttle",
     "Stop Name": "Grand Central - 42 St",
@@ -6138,7 +6138,7 @@
   {
     "Station ID": 471,
     "Complex ID": 471,
-    "GTFS Stop ID": 726,
+    id: 726,
     "Division": "IRT",
     "Line": "Flushing",
     "Stop Name": "34 St - 11 Av",
@@ -6151,7 +6151,7 @@
   {
     "Station ID": 475,
     "Complex ID": 475,
-    "GTFS Stop ID": "Q05",
+    id: "Q05",
     "Division": "IND",
     "Line": "Second Av",
     "Stop Name": "96 St",
@@ -6164,7 +6164,7 @@
   {
     "Station ID": 476,
     "Complex ID": 476,
-    "GTFS Stop ID": "Q04",
+    id: "Q04",
     "Division": "IND",
     "Line": "Second Av",
     "Stop Name": "86 St",
@@ -6177,7 +6177,7 @@
   {
     "Station ID": 477,
     "Complex ID": 477,
-    "GTFS Stop ID": "Q03",
+    id: "Q03",
     "Division": "IND",
     "Line": "Second Av",
     "Stop Name": "72 St",
@@ -6190,7 +6190,7 @@
   {
     "Station ID": 501,
     "Complex ID": 501,
-    "GTFS Stop ID": "S31",
+    id: "S31",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "St George",
@@ -6203,7 +6203,7 @@
   {
     "Station ID": 502,
     "Complex ID": 502,
-    "GTFS Stop ID": "S30",
+    id: "S30",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "Tompkinsville",
@@ -6216,7 +6216,7 @@
   {
     "Station ID": 503,
     "Complex ID": 503,
-    "GTFS Stop ID": "S29",
+    id: "S29",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "Stapleton",
@@ -6229,7 +6229,7 @@
   {
     "Station ID": 504,
     "Complex ID": 504,
-    "GTFS Stop ID": "S28",
+    id: "S28",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "Clifton",
@@ -6242,7 +6242,7 @@
   {
     "Station ID": 505,
     "Complex ID": 505,
-    "GTFS Stop ID": "S27",
+    id: "S27",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "Grasmere",
@@ -6255,7 +6255,7 @@
   {
     "Station ID": 506,
     "Complex ID": 506,
-    "GTFS Stop ID": "S26",
+    id: "S26",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "Old Town",
@@ -6268,7 +6268,7 @@
   {
     "Station ID": 507,
     "Complex ID": 507,
-    "GTFS Stop ID": "S25",
+    id: "S25",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "Dongan Hills",
@@ -6281,7 +6281,7 @@
   {
     "Station ID": 508,
     "Complex ID": 508,
-    "GTFS Stop ID": "S24",
+    id: "S24",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "Jefferson Av",
@@ -6294,7 +6294,7 @@
   {
     "Station ID": 509,
     "Complex ID": 509,
-    "GTFS Stop ID": "S23",
+    id: "S23",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "Grant City",
@@ -6307,7 +6307,7 @@
   {
     "Station ID": 510,
     "Complex ID": 510,
-    "GTFS Stop ID": "S22",
+    id: "S22",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "New Dorp",
@@ -6320,7 +6320,7 @@
   {
     "Station ID": 511,
     "Complex ID": 511,
-    "GTFS Stop ID": "S21",
+    id: "S21",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "Oakwood Heights",
@@ -6333,7 +6333,7 @@
   {
     "Station ID": 512,
     "Complex ID": 512,
-    "GTFS Stop ID": "S20",
+    id: "S20",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "Bay Terrace",
@@ -6346,7 +6346,7 @@
   {
     "Station ID": 513,
     "Complex ID": 513,
-    "GTFS Stop ID": "S19",
+    id: "S19",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "Great Kills",
@@ -6359,7 +6359,7 @@
   {
     "Station ID": 514,
     "Complex ID": 514,
-    "GTFS Stop ID": "S18",
+    id: "S18",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "Eltingville",
@@ -6372,7 +6372,7 @@
   {
     "Station ID": 515,
     "Complex ID": 515,
-    "GTFS Stop ID": "S17",
+    id: "S17",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "Annadale",
@@ -6385,7 +6385,7 @@
   {
     "Station ID": 516,
     "Complex ID": 516,
-    "GTFS Stop ID": "S16",
+    id: "S16",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "Huguenot",
@@ -6398,7 +6398,7 @@
   {
     "Station ID": 517,
     "Complex ID": 517,
-    "GTFS Stop ID": "S15",
+    id: "S15",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "Prince's Bay",
@@ -6411,7 +6411,7 @@
   {
     "Station ID": 518,
     "Complex ID": 518,
-    "GTFS Stop ID": "S14",
+    id: "S14",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "Pleasant Plains",
@@ -6424,7 +6424,7 @@
   {
     "Station ID": 519,
     "Complex ID": 519,
-    "GTFS Stop ID": "S13",
+    id: "S13",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "Richmond Valley",
@@ -6437,7 +6437,7 @@
   {
     "Station ID": 522,
     "Complex ID": 522,
-    "GTFS Stop ID": "S09",
+    id: "S09",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "Tottenville",
@@ -6450,7 +6450,7 @@
   {
     "Station ID": 523,
     "Complex ID": 523,
-    "GTFS Stop ID": "S11",
+    id: "S11",
     "Division": "SIR",
     "Line": "Staten Island",
     "Stop Name": "Arthur Kill",
