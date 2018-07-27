@@ -1,0 +1,36 @@
+<div border-top class="mb3"></div>
+
+<!-- line picker -->
+<ng-container *ngIf="stop.line == null">
+  <div class="flex justify-center flex-wrap">
+    <span class="text-gray f1 b">01:</span>
+    <span class="f1 b">Track</span>
+    <span class="w-100 tc text-gray b">Select your subway line</span>
+  </div>
+  <div class="flex justify-between flex-wrap pt3">
+    <app-line-icon
+      *ngFor="let option of lineOptions"
+      (click)="setStopLine(option)"
+      [line]="option"
+      class="pa2 pointer">
+    </app-line-icon>
+  </div>
+</ng-container>
+
+
+<!-- stop picker template -->
+<ng-container *ngIf="stop.line != null">
+    <div class="flex justify-center flex-wrap">
+      <span class="text-gray f1 b">02:</span>
+      <span class="f1 b">Station</span>
+      <span class="w-100 tc text-gray b">Pick your station</span>
+    </div>
+  <div
+    *ngFor="let option of stopOptions; first as first"
+    (click)="setStopId(option.id)"
+    class="pa3 f4 b b--mid-gray flex items-center pointer"
+    [class.bt]="!first">
+    {{ option.label }}
+  </div>
+</ng-container>
+

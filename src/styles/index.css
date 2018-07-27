@@ -10,8 +10,25 @@ p {
   margin: 0;
 }
 
+button,
+button:active {
+  border: 0;
+  background: rgba(136,136,136,1);
+  color: var(--black);
+  outline: none;
+  cursor: pointer;
+}
+
+/*
+  STYLES
+*/
+
 html {
   background: var(--black);
   color: var(--white);
   font-family: Helvetica, sans-serif
+}
+
+.text-gray {
+  color: rgba(136,136,136,1);
 }

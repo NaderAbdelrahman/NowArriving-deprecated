@@ -5,20 +5,25 @@ import { Component, Input } from "@angular/core";
   templateUrl: "line-icon.template.html",
   styles: [
     `
-      .red {
-        background-color: rgb(229, 59, 59);
+      :host {
+        color: rgb(255, 255, 255);
       }
 
-      .green {
-        background-color: rgb(53, 104, 35);
+      .icon-red {
+        background-color: rgb(229, 57, 53);
       }
 
-      .blue {
-        background-color: rgb(19, 96, 174);
+      .icon-green {
+        background-color: rgb(51, 105, 30);
       }
 
-      .yellow {
-        background-color: rgb(254, 201, 62);
+      .icon-blue {
+        background-color: rgb(9, 93, 177);
+      }
+
+      .icon-yellow {
+        color: rgb(44, 44, 44);
+        background-color: rgb(255, 202, 40);
       }
 
       [circle] {

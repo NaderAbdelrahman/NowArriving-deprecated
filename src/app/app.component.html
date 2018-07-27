@@ -1,19 +1,6 @@
 <div class="flex justify-center">
   <div content-width class="pa2">
-    <ng-container *ngIf="(stopsWithSchedules$ | async) as stops; else loadingTemplate">
-      <app-stop-schedule
-        *ngFor="let stop of stops; last as last"
-        [stop]="stop"
-        [class.mb5]="!last">
-      </app-stop-schedule>
-    </ng-container>
+    <router-outlet></router-outlet>
   </div>
 </div>
-
-<ng-template #loadingTemplate>
-  <app-loading-spinner></app-loading-spinner>
-  <div class="flex justify-center">
-    Loading...
-  </div>
-</ng-template>
 

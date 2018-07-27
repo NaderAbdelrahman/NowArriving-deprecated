@@ -1,23 +1,25 @@
 <!-- stop header -->
 <div class="tc pt2 pb3 bt" style="border-width: 6px;">
-    <div class="flex justify-center pv2">
-      <app-line-icon [line]="stop.line"></app-line-icon>
-    </div>
-
-    <p class="f4 fw8 pb1">{{ stop.stop.name}}</p>
-    <p class="gray f7">Last Updated: {{ (stop.updatedOn * 1000) | date:"shortTime" }}</p>
+  <div class="flex justify-center pv2">
+    <app-line-icon [line]="stop.line"></app-line-icon>
   </div>
 
-  <!-- northbound times -->
-  <app-arrivals
-    [arrivals]="stop.arrivalsNorth"
-    direction="Northbound"
-    class="mb3">
-  </app-arrivals>
+  <p class="f4 fw8 pb1">{{ stop.stop.name}}</p>
+  <p class="gray f7">Last Updated: {{ (stop.updatedOn * 1000) | date:"shortTime" }}</p>
+</div>
 
-  <!-- southbound times -->
-  <app-arrivals
-    [arrivals]="stop.arrivalsSouth"
-    direction="Southbound"
-    class="mb3">
-  </app-arrivals>
+<!-- northbound times -->
+<app-arrivals
+  *ngIf="stop.arrivalsNorth.length > 0"
+  [arrivals]="stop.arrivalsNorth"
+  direction="Northbound"
+  class="mb3">
+</app-arrivals>
+
+<!-- southbound times -->
+<app-arrivals
+  *ngIf="stop.arrivalsSouth.length > 0"
+  [arrivals]="stop.arrivalsSouth"
+  direction="Southbound"
+  class="mb3">
+</app-arrivals>
