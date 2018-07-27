@@ -59,9 +59,11 @@ function makeStopWithSchedule(schedule: any): StopWithSchedule {
   return {
     ...schedule,
     arrivalsNorth: (schedule.arrivalsNorth as Arrival[])
+      .filter(({ routeId }) => `${ routeId }` === `${ schedule.line }`)
       .filter(({ arrivalTime }) => arrivalTime * 1000 >= Date.now())
       .slice(0, 4),
     arrivalsSouth: schedule.arrivalsSouth
+      .filter(({ routeId }) => `${ routeId }` === `${ schedule.line }`)
       .filter(({ arrivalTime }) => arrivalTime * 1000 >= Date.now())
       .slice(0, 4),
     stop: {
