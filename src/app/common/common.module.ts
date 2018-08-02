@@ -5,6 +5,7 @@ import { ArrivalsComponent } from "./arrivals";
 import { LoadingSpinnerComponent } from "./loading-spinner";
 import { LineIconComponent } from "./line-icon";
 import { StopScheduleComponent } from "./stop-schedule";
+import { DeleteButtonComponent } from "./delete-button";
 
 @NgModule({
   imports: [CommonModule],
@@ -12,13 +13,15 @@ import { StopScheduleComponent } from "./stop-schedule";
     ArrivalsComponent,
     LineIconComponent,
     LoadingSpinnerComponent,
-    StopScheduleComponent
+    StopScheduleComponent,
+    DeleteButtonComponent
   ],
   exports: [
     ArrivalsComponent,
     LineIconComponent,
     LoadingSpinnerComponent,
-    StopScheduleComponent
+    StopScheduleComponent,
+    DeleteButtonComponent
   ]
 })
 export class AppCommonModule { }

@@ -5,6 +5,8 @@ import { map } from "rxjs/operators";
 
 import { Arrival, Schedule, Stop } from "../../models";
 
+// CALLS OUR API TO GET STOPS
+
 @Injectable()
 export class MtaApi {
 
