@@ -5,7 +5,13 @@
     'icon-yellow': lineColor === 'yellow',
     'icon-red': lineColor === 'red',
     'icon-blue': lineColor === 'blue',
-    'icon-green': lineColor === 'green'
+    'icon-green': lineColor === 'green',
+    'icon-limeGreen': lineColor === 'limeGreen',
+    'icon-orange': lineColor === 'orange',
+    'icon-brown': lineColor === 'brown',
+    'icon-purple': lineColor === 'purple',
+    'icon-grey': lineColor === 'grey',
+    'icon-SIR': lineColor === 'SIR'
   }">
-  <span class="b f1">{{ line }}</span>
+  <span [class.icon-SIR-span]="isSIR()" class="b f1">{{ line }}</span>
 </div>

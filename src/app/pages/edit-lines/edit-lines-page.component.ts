@@ -26,7 +26,13 @@ export class EditLinesPageComponent {
 
   lineOptions = [
     "1", "2", "3",
-    "4", "5", "6"
+    "4", "5", "6",
+    "A", "C", "E",
+    "N", "Q", "R",
+    "W", "B", "D",
+    "F", "M", "G",
+    "J", "Z", "7",
+    "S", "L", "SIR"
   ];
 
   stopOptions: any[] = [];
