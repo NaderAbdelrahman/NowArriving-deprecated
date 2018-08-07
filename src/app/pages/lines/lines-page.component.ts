@@ -40,7 +40,8 @@ export class LinesPageComponent implements OnInit {
   private loadSchedules(): void {
     zipObservable(
         ...this.savedStops.map((stop) => {
-          return this.api.getSchedule(stop.id)
+          console.log(stop);
+          return this.api.getSchedule(stop.id, stop.line)
             .pipe(
               map((schedule) => {
                 return { ...schedule, line: stop.line };
@@ -57,8 +58,8 @@ export class LinesPageComponent implements OnInit {
   deleteStation(stop: any) {
     let localStorageArr = this.savedStopsService.getStops();
     localStorageArr = localStorageArr.filter(element => {
-      console.log(element.line, stop.line, element.id, parseInt(stop.stopId, 10));
-      return (element.line !== stop.line || element.id !== parseInt(stop.stopId, 10));
+      // console.log(element.line, stop.line, element.id, stop.stopId);
+      return (element.line !== stop.line || element.id != stop.stopId);
     });
     this.savedStopsService.setStops(localStorageArr);
     // this.savedStops = localStorageArr;
@@ -67,6 +68,7 @@ export class LinesPageComponent implements OnInit {
       return stopWithSchedule.stopId !== stop.stopId || stopWithSchedule.line !== stop.line;
     });
     if (localStorageArr.length === 0) {
+      // console.log("----length is 0-----");
       this.router.navigateByUrl("/lines/edit");
     }
   }

@@ -44,10 +44,11 @@ export class EditLinesPageComponent {
 
   setStopLine(line: string): void {
     this.stop.line = line;
+    // Checks if line is null
     this.setStopOptions();
   }
 
-  setStopId(id: number| string): void {
+  setStopId(id: number | string): void {
     this.stop.id = id;
     this.saveStop();
   }

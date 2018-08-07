@@ -4,6 +4,7 @@ import { Observable} from "rxjs";
 import { map } from "rxjs/operators";
 
 import { Arrival, Schedule, Stop } from "../../models";
+import {Router} from "@angular/router";
 
 // CALLS OUR API TO GET STOPS
 
@@ -13,7 +14,8 @@ export class MtaApi {
   private route = "https://us-central1-mta-hackathon-4b4c1.cloudfunctions.net/";
 
   constructor(
-    private http: HttpClient
+    private http: HttpClient,
+    private router: Router
   ) {}
 
   getAllStops(): Observable<Record<string, Stop>> {
@@ -35,8 +37,14 @@ export class MtaApi {
     );
   }
 
-  getSchedule(stop: string | number): Observable<Schedule> {
-    return this.http.get<Schedule>(this.route + "stopSchedule?stopID=" + stop)
+  // getSchedule(stop: string | number): Observable<Schedule> {
+  //   return this.http.get<Schedule>(this.route + "stopSchedule?stopID=" + stop)
+  //     .pipe(
+  //       map(coerceScheduleJSON)
+  //     );
+  // }
+  getSchedule(stopID: string | number, line: string | number): Observable<Schedule> {
+    return this.http.get<Schedule>(this.route + "stopSchedule?stopID=" + stopID + "&line=" + line)
       .pipe(
         map(coerceScheduleJSON)
       );
