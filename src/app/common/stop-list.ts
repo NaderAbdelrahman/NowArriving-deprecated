@@ -2586,32 +2586,32 @@ export const STOP_LIST = [
     "GTFS Latitude": 40.660476,
     "GTFS Longitude": -73.830301
   },
-  {
-    "Station ID": 199,
-    "Complex ID": 199,
-    id: "H04",
-    "Division": "IND",
-    "Line": "Rockaway",
-    "Stop Name": "Broad Channel",
-    "Borough": "Q",
-    "Daytime Routes": "A S",
-    "Structure": "At Grade",
-    "GTFS Latitude": 40.608382,
-    "GTFS Longitude": -73.815925
-  },
-  {
-    "Station ID": 199,
-    "Complex ID": 199,
-    id: "H19",
-    "Division": "IND",
-    "Line": "Rockaway",
-    "Stop Name": "Broad Channel",
-    "Borough": "Q",
-    "Daytime Routes": "A S",
-    "Structure": "At Grade",
-    "GTFS Latitude": 40.608382,
-    "GTFS Longitude": -73.815925
-  },
+  // {
+  //   "Station ID": 199,
+  //   "Complex ID": 199,
+  //   id: "H04",
+  //   "Division": "IND",
+  //   "Line": "Rockaway",
+  //   "Stop Name": "Broad Channel",
+  //   "Borough": "Q",
+  //   "Daytime Routes": "A S",
+  //   "Structure": "At Grade",
+  //   "GTFS Latitude": 40.608382,
+  //   "GTFS Longitude": -73.815925
+  // },
+  // {
+  //   "Station ID": 199,
+  //   "Complex ID": 199,
+  //   id: "H19",
+  //   "Division": "IND",
+  //   "Line": "Rockaway",
+  //   "Stop Name": "Broad Channel",
+  //   "Borough": "Q",
+  //   "Daytime Routes": "A S",
+  //   "Structure": "At Grade",
+  //   "GTFS Latitude": 40.608382,
+  //   "GTFS Longitude": -73.815925
+  // },
   {
     "Station ID": 200,
     "Complex ID": 200,
