@@ -2,7 +2,7 @@
   <app-stop-schedule
     *ngFor="let stop of stopsWithSchedules; last as last"
     [stop]="stop"
-    [class.mb5]="!last">
+    [class.mb4]="!last">
       <app-delete-button
         (clickEvent)="deleteStation(stop)"
       >

@@ -1,7 +1,9 @@
 import { Component } from "@angular/core";
 import { Router } from "@angular/router";
 
-import { SavedStopsService } from "../../core/api";
+import { MtaApi, SavedStopsService } from "../../core/api";
+
+import { Borough } from "../../models";
 
 import { STOP_LIST } from "../../common";
 
@@ -35,11 +37,12 @@ export class EditLinesPageComponent {
     "S", "L", "SIR"
   ];
 
-  stopOptions: any[] = [];
+  stopOptions: Borough[] = [];
 
   constructor(
     private savedStopsService: SavedStopsService,
-    private router: Router
+    private router: Router,
+    private mtaApi: MtaApi
   ) { }
 
   setStopLine(line: string): void {
@@ -69,19 +72,22 @@ export class EditLinesPageComponent {
     if (this.stop.line == null) {
       throw new Error("Stop Line is null, cannot find options");
     }
-
-    this.stopOptions = STOP_LIST
-      .filter((stop) => {
-        const rawStopLines = stop["Daytime Routes"];
-        const lines = typeof rawStopLines === "number" ? [`${ rawStopLines }`] : rawStopLines.split(" ");
-        return lines.includes(this.stop.line);
-      })
-      .map((stop) => {
-        return {
-          id: stop.id,
-          label: stop["Stop Name"]
-        };
-      });
+    this.mtaApi.getStopsByLine(this.stop.line).subscribe((thing) => {
+      console.log(thing);
+      this.stopOptions = thing;
+    });
+    // this.stopOptions = STOP_LIST
+    //   .filter((stop) => {
+    //     const rawStopLines = stop["Daytime Routes"];
+    //     const lines = typeof rawStopLines === "number" ? [`${ rawStopLines }`] : rawStopLines.split(" ");
+    //     return lines.includes(this.stop.line);
+    //   })
+    //   .map((stop) => {
+    //     return {
+    //       id: stop.id,
+    //       label: stop["Stop Name"]
+    //     };
+    //   });
   }
 
 

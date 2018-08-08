@@ -1,7 +1,7 @@
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { Observable} from "rxjs";
-import { map } from "rxjs/operators";
+import {map} from "rxjs/operators";
 
 import { Arrival, Schedule, Stop } from "../../models";
 import {Router} from "@angular/router";
@@ -25,37 +25,46 @@ import {Router} from "@angular/router";
 export class MtaApi {
 
   private route = "https://us-central1-mta-hackathon-4b4c1.cloudfunctions.net/";
-
+  private mtaRoute = "http://traintimelb-367443097.us-east-1.elb.amazonaws.com/";
   constructor(
     private http: HttpClient,
     private router: Router
-  ) {}
+  ) { }
 
-  getAllStops(): Observable<Record<string, Stop>> {
-    return this.http.get<any[]>(this.route + "viewAllStops")
-      .pipe(
-        map((stopObj) => {
-          return Object.keys(stopObj).reduce((acc, key) => {
-              acc[key] = coerceJSON(stopObj[key]);
-              return acc;
-          }, {});
-        })
-      );
-  }
+  // getAllStops(): Observable<Record<string, Stop>> {
+  //   return this.http.get<any[]>(this.route + "viewAllStops")
+  //     .pipe(
+  //       map((stopObj) => {
+  //         return Object.keys(stopObj).reduce((acc, key) => {
+  //             acc[key] = coerceJSON(stopObj[key]);
+  //             return acc;
+  //         }, {});
+  //       })
+  //     );
+  // }
+  //
+  // // : Observable<Stop>
+  // getOneStop(stop: string) {
+  //   console.log(this.http.get<any>(this.route + "getStationsByLine/" + stop));
+  //   // return this.http.get<any>(this.route + "getStationsByLine/" + stop)
+  //   //   .pipe(
+  //   //     map(coerceJSON)
+  //   // );
+  // }
 
-  getOneStop(stop: string): Observable<Stop> {
-    return this.http.get<any>(this.route + "viewSelectedStops?stopID=" + stop)
-      .pipe(
-        map(coerceJSON)
+  getStopsByLine(line: string) {
+    return this.http.get(this.mtaRoute + "getStationsByLine/" + line, {responseType: "json"}).pipe(
+      map((res: string) => JSON.parse(res))
     );
   }
 
-  // getSchedule(stop: string | number): Observable<Schedule> {
-  //   return this.http.get<Schedule>(this.route + "stopSchedule?stopID=" + stop)
-  //     .pipe(
-  //       map(coerceScheduleJSON)
-  //     );
-  // }
+// ,
+//   map((boroughs) => boroughs.reduce((allStations, borough) => {
+//   allStations.push(...borough.stations);
+//   return allStations;
+// }, []))
+
+
   getSchedule(stopID: string | number, line: string | number): Observable<Schedule> {
     return this.http.get<Schedule>(this.route + "stopSchedule?stopID=" + stopID + "&line=" + line)
       .pipe(
