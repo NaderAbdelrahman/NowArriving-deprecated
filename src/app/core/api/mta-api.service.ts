@@ -8,6 +8,19 @@ import {Router} from "@angular/router";
 
 // CALLS OUR API TO GET STOPS
 
+// type ApiResponse = {
+//   success: true;
+//   data: any;
+// } | {
+//   success: false;
+//   error: string;
+// };
+//
+// enum ApiError {
+//   BAD_REQUEST,
+//   SERVER_ERROR
+// }
+
 @Injectable()
 export class MtaApi {
 
