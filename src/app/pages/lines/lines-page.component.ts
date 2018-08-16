@@ -1,6 +1,6 @@
-import { Component, OnInit, ChangeDetectorRef } from "@angular/core";
+import { Component, OnInit } from "@angular/core";
 import { Router } from "@angular/router";
-import { Observable, zip as zipObservable } from "rxjs";
+import { zip as zipObservable } from "rxjs";
 import { map } from "rxjs/operators";
 
 import { MtaApi, SavedStopsService } from "../../core/api";
@@ -21,7 +21,6 @@ export class LinesPageComponent implements OnInit {
     private api: MtaApi,
     private savedStopsService: SavedStopsService,
     private router: Router,
-    private changeDetectorRef: ChangeDetectorRef
   ) { }
 
   ngOnInit(): void {
@@ -58,17 +57,14 @@ export class LinesPageComponent implements OnInit {
   deleteStation(stop: any) {
     let localStorageArr = this.savedStopsService.getStops();
     localStorageArr = localStorageArr.filter(element => {
-      // console.log(element.line, stop.line, element.id, stop.stopId);
+      console.log(stop);
       return (element.line !== stop.line || element.id != stop.stopId);
     });
     this.savedStopsService.setStops(localStorageArr);
-    // this.savedStops = localStorageArr;
     this.stopsWithSchedules = this.stopsWithSchedules.filter((stopWithSchedule) => {
-      // console.log(stopWithSchedule.stopId, stop.stopId, stopWithSchedule.line, stop.line);
       return stopWithSchedule.stopId !== stop.stopId || stopWithSchedule.line !== stop.line;
     });
     if (localStorageArr.length === 0) {
-      // console.log("----length is 0-----");
       this.router.navigateByUrl("/lines/edit");
     }
   }

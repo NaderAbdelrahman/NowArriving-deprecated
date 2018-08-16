@@ -30,13 +30,16 @@
   <div
     *ngFor="let borough of stopOptions; first as first"
     [class.bt]="!first">
-    <div class="pv3 tc f3 text-gray b">
+    <div class="pv4 tc f3 text-gray b">
       {{ borough.borough }}
     </div>
     <div *ngFor="let station of borough.stations"
          (click)="setStopId(station.id)"
           class="pa3 f4 b bt b--mid-gray pointer">
-        {{ station.name }}
+      {{ station.name }}
+      <span *ngIf="station.status === '-1' || station.status === ' -1'" class="red">
+          Is Not Active
+      </span>
     </div>
   </div>
 

@@ -1,7 +1,7 @@
-import {Component, EventEmitter, Input, Output} from "@angular/core";
+import {Component, Input} from "@angular/core";
 
 import { StopWithSchedule } from "../../models";
-import {SavedStopsService} from "../../core/api";
+import { SavedStopsService } from "../../core/api";
 
 @Component({
   selector: "app-stop-schedule",
@@ -17,10 +17,10 @@ import {SavedStopsService} from "../../core/api";
 export class StopScheduleComponent {
 
   constructor(
-    private savedStopService: SavedStopsService
+    // private savedStopService: SavedStopsService
   ) { }
   @Input()
-  stop: StopWithSchedule;
+  stop: any;
 
   // deleteStation(stop: any) {
   //   let localStorageArr = this.savedStopService.getStops();

@@ -25,7 +25,7 @@ import {Router} from "@angular/router";
 export class MtaApi {
 
   private route = "https://us-central1-mta-hackathon-4b4c1.cloudfunctions.net/";
-  private mtaRoute = "http://traintimelb-367443097.us-east-1.elb.amazonaws.com/";
+  // private mtaRoute = "http://traintimelb-367443097.us-east-1.elb.amazonaws.com/";
   constructor(
     private http: HttpClient,
     private router: Router
@@ -53,7 +53,7 @@ export class MtaApi {
   // }
 
   getStopsByLine(line: string) {
-    return this.http.get(this.mtaRoute + "getStationsByLine/" + line, {responseType: "json"}).pipe(
+    return this.http.get(this.route + "getStopsByLine?line=" + line).pipe(
       map((res: string) => JSON.parse(res))
     );
   }
@@ -76,7 +76,7 @@ export class MtaApi {
 function coerceJSON(json: any): Stop {
   return {
     id: json.stop_id,
-    name: json.stop_name,
+    stop: json.stop_name,
     locationType: json.location_type
   };
 }
