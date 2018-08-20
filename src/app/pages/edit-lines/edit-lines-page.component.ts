@@ -3,9 +3,9 @@ import { Router } from "@angular/router";
 
 import { MtaApi, SavedStopsService } from "../../core/api";
 
-import { Borough } from "../../models";
 
-import { STOP_LIST } from "../../common";
+
+import { Borough } from "../../models";
 
 @Component({
   selector: "app-edit-lines-page",
@@ -37,7 +37,7 @@ export class EditLinesPageComponent {
     "S", "L", "SIR"
   ];
 
-  stopOptions: Borough[] = [];
+  stopOptions: Borough[];
 
   constructor(
     private savedStopsService: SavedStopsService,
@@ -73,23 +73,9 @@ export class EditLinesPageComponent {
       throw new Error("Stop Line is null, cannot find options");
     }
     this.mtaApi.getStopsByLine(this.stop.line).subscribe((thing) => {
-      console.log(thing);
       this.stopOptions = thing;
     });
-    // this.stopOptions = STOP_LIST
-    //   .filter((stop) => {
-    //     const rawStopLines = stop["Daytime Routes"];
-    //     const lines = typeof rawStopLines === "number" ? [`${ rawStopLines }`] : rawStopLines.split(" ");
-    //     return lines.includes(this.stop.line);
-    //   })
-    //   .map((stop) => {
-    //     return {
-    //       id: stop.id,
-    //       label: stop["Stop Name"]
-    //     };
-    //   });
   }
-
 
 
 }

@@ -27,21 +27,27 @@
     <span class="tc w-100 text-gray b">Pick your station</span>
   </div>
 
-  <div
-    *ngFor="let borough of stopOptions; first as first"
-    [class.bt]="!first">
-    <div class="pv4 tc f3 text-gray b">
-      {{ borough.borough }}
-    </div>
-    <div *ngFor="let station of borough.stations"
-         (click)="setStopId(station.id)"
-          class="pa3 f4 b bt b--mid-gray pointer">
-      {{ station.name }}
-      <span *ngIf="station.status === '-1' || station.status === ' -1'" class="red">
+  <ng-container *ngIf="stopOptions != null; else loadingTemplate">
+    <div *ngFor="let borough of stopOptions">
+      <div class="mt5 pv3 tc f4 text-gray b tracked bt bw2 b--white">
+        {{ borough.borough }}
+      </div>
+      <div *ngFor="let station of borough.stations"
+           (click)="setStopId(station.id)"
+            class="pa3 f4 b bt b--mid-gray pointer">
+        {{ station.name }}
+        <span *ngIf="station.status === '-1' || station.status === ' -1'" class="red">
           Is Not Active
-      </span>
+        </span>
+      </div>
     </div>
-  </div>
+  </ng-container>
 
+  <ng-template #loadingTemplate>
+    <app-loading-spinner></app-loading-spinner>
+    <div class="flex justify-center">
+      Loading...
+    </div>
+  </ng-template>
 </ng-container>
 
