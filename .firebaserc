@@ -1,5 +1,6 @@
 {
   "projects": {
-    "default": "now-arriving-app"
+    "default": "now-arriving-app",
+    "mta": "mta-hackathon-4b4c1"
   }
 }

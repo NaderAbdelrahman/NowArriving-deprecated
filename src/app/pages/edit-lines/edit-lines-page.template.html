@@ -29,7 +29,7 @@
 
   <ng-container *ngIf="stopOptions != null; else loadingTemplate">
     <div *ngFor="let borough of stopOptions">
-      <div class="mt5 pv3 tc f4 text-gray b tracked bt bw2 b--white">
+      <div class="mt4 pv3 tc f4 text-gray b tracked bt bw2 b--white">
         {{ borough.borough }}
       </div>
       <div *ngFor="let station of borough.stations"
