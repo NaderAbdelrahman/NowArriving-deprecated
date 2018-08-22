@@ -1,8 +1,10 @@
-import { Component, Input } from "@angular/core";
+import {ChangeDetectionStrategy, Component, Input} from "@angular/core";
 
-import { Arrival } from "../../models";
+import {Arrival} from "../../models";
+import { Observable, interval } from "rxjs";
 
 @Component({
+  changeDetection: ChangeDetectionStrategy.OnPush,
   selector: "app-arrivals",
   templateUrl: "arrivals.template.html",
   styles: [
@@ -26,5 +28,21 @@ export class ArrivalsComponent {
 
   @Input()
   direction: string;
+
+  initObservableArrivals(): Observable<string[]> {
+    return interval(1000)
+      .pipe(
+        () => this.makeArrivalData()
+      );
+  }
+
+  makeArrivalData(): void {
+    this.arrivals.map((arrival, idx) => {
+      if (idx === 0) {
+        return ((arrival - Date.now()) * 1000) * 60;
+      }
+      // return count up string
+    });
+  }
 
 }

@@ -82,14 +82,30 @@ function makeStopWithSchedule(schedule: any): StopWithSchedule {
       .filter(({ routeId }) => {
         const lineStr = `${ schedule.line }`,
           routeIdStr = `${ routeId }`;
-        return LINES_WITH_EXPRESS.has(lineStr)
-          ? routeIdStr === lineStr || routeIdStr === lineStr + "X"
-          : routeIdStr === lineStr;
+        if (lineStr === "SIR") {
+          return routeIdStr === lineStr || routeIdStr === "SI" || routeIdStr === "SS";
+        } else if (LINES_WITH_EXPRESS.has(lineStr)) {
+          return routeIdStr === lineStr || routeIdStr === lineStr + "X";
+        } else if (lineStr === "S") {
+
+        } else {
+          return routeIdStr === lineStr;
+        }
       })
       .filter(({ arrivalTime }) => arrivalTime * 1000 >= Date.now())
       .slice(0, 4),
     arrivalsSouth: schedule.arrivalsSouth
-      .filter(({ routeId }) => `${ routeId }` === `${ schedule.line }`)
+      .filter(({ routeId }) => {
+        const lineStr = `${ schedule.line }`,
+          routeIdStr = `${ routeId }`;
+        if (lineStr === "SIR") {
+          return routeIdStr === lineStr || routeIdStr === "SI" || routeIdStr === "SS";
+        } else if (LINES_WITH_EXPRESS.has(lineStr)) {
+          return routeIdStr === lineStr || routeIdStr === lineStr + "X";
+        } else {
+          return routeIdStr === lineStr;
+        }
+      })
       .filter(({ arrivalTime }) => arrivalTime * 1000 >= Date.now())
       .slice(0, 4),
     stop: {
