@@ -2,10 +2,10 @@
 <div class="flex justify-start flex-wrap">
   <ng-container *ngFor="let arrival of arrivals; index as idx">
     <div *ngIf="idx === 0" class="w-100 f1 b">
-      {{ (arrival.arrivalTime * 1000) | date:"shortTime" }}
+      {{ (arrival.arrivalTime * 1000) | date:"shortTime" }}<span *ngIf="arrival.routeId === '6X' || arrival.routeId === '7X'">♦</span>
     </div>
     <div *ngIf="idx > 0" class="gray pr2 b">
-      {{ (arrival.arrivalTime * 1000) | date:"shortTime" }}
+      {{ (arrival.arrivalTime * 1000) | date:"shortTime" }}<span *ngIf="arrival.routeId === '6X' || arrival.routeId === '7X'">♦</span>
     </div>
   </ng-container>
 </div>

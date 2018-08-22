@@ -7,6 +7,8 @@ import { MtaApi, SavedStopsService } from "../../core/api";
 import { Arrival, StopWithSchedule } from "../../models";
 import { STOP_LIST } from "../../common";
 
+const LINES_WITH_EXPRESS = new Set(["6", "7"]);
+
 @Component({
   selector: "app-lines",
   templateUrl: "./lines-page.template.html"
@@ -77,7 +79,13 @@ function makeStopWithSchedule(schedule: any): StopWithSchedule {
   return {
     ...schedule,
     arrivalsNorth: (schedule.arrivalsNorth as Arrival[])
-      .filter(({ routeId }) => `${ routeId }` === `${ schedule.line }`)
+      .filter(({ routeId }) => {
+        const lineStr = `${ schedule.line }`,
+          routeIdStr = `${ routeId }`;
+        return LINES_WITH_EXPRESS.has(lineStr)
+          ? routeIdStr === lineStr || routeIdStr === lineStr + "X"
+          : routeIdStr === lineStr;
+      })
       .filter(({ arrivalTime }) => arrivalTime * 1000 >= Date.now())
       .slice(0, 4),
     arrivalsSouth: schedule.arrivalsSouth
