@@ -7,7 +7,7 @@
   <app-stop-schedule
     *ngFor="let stop of stopsWithSchedules; first as first; last as last"
     [stop]="stop"
-    [class.bt]="!first"
+
     [class.mb4]="!last">
       <app-delete-button
         (clickEvent)="deleteStation(stop)"
@@ -20,7 +20,7 @@
     <button
       (click)="redirectToEditLines()"
       class="bg-mid-gray w-100 pv3 f6 ttu b">
-      Add Another Station
+      Add Another To Your Stops
     </button>
   </div>
 
