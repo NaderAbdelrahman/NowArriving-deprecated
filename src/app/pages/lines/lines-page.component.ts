@@ -1,7 +1,13 @@
-import { Component, OnInit } from "@angular/core";
+import { Component, EventEmitter, OnDestroy, OnInit } from "@angular/core";
 import { Router } from "@angular/router";
-import { zip as zipObservable } from "rxjs";
-import { map } from "rxjs/operators";
+import {
+  Observable,
+  combineLatest as observableCombineLatest,
+  zip as zipObservable,
+  interval as intervalObservable,
+  fromEvent as observableFromEvent
+} from "rxjs";
+import { debounceTime, filter, map, startWith, takeUntil, tap } from "rxjs/operators";
 
 import { MtaApi, SavedStopsService } from "../../core/api";
 import { Arrival, StopWithSchedule } from "../../models";
@@ -13,11 +19,13 @@ const LINES_WITH_EXPRESS = new Set(["6", "7"]);
   selector: "app-lines",
   templateUrl: "./lines-page.template.html"
 })
-export class LinesPageComponent implements OnInit {
+export class LinesPageComponent implements OnInit, OnDestroy {
 
   savedStops: Array<{ line: string | number, id: string | number }>;
 
   stopsWithSchedules: StopWithSchedule[] = [];
+
+  private onDestroyEmitter = new EventEmitter<void>();
 
   constructor(
     private api: MtaApi,
@@ -27,11 +35,36 @@ export class LinesPageComponent implements OnInit {
 
   ngOnInit(): void {
     this.loadSavedStops();
-    this.loadSchedules();
+    this.initLoadDataInterval();
   }
+
+  ngOnDestroy(): void {
+    this.onDestroyEmitter.emit();
+  }
+
 
   redirectToEditLines(): void {
     this.router.navigateByUrl("/lines/edit");
+  }
+
+  private initLoadDataInterval(): void {
+    const pageVisible$: Observable<boolean> = observableFromEvent(document, "visibilitychange")
+      .pipe(
+        startWith(!document.hidden),
+        map(() => !document.hidden)
+      );
+    const refreshInterval$ = intervalObservable(30e3)
+      .pipe(startWith(0));
+
+    observableCombineLatest(
+      refreshInterval$,
+      pageVisible$
+    )
+      .pipe(
+        filter(([_, isVisible]) => isVisible),
+        takeUntil(this.onDestroyEmitter)
+      )
+      .subscribe(() => this.loadSchedules());
   }
 
   private loadSavedStops(): void {
@@ -41,7 +74,6 @@ export class LinesPageComponent implements OnInit {
   private loadSchedules(): void {
     zipObservable(
         ...this.savedStops.map((stop) => {
-          console.log(stop);
           return this.api.getSchedule(stop.id, stop.line)
             .pipe(
               map((schedule) => {
@@ -114,5 +146,3 @@ function makeStopWithSchedule(schedule: any): StopWithSchedule {
     }
   };
 }
-
-

@@ -1,7 +1,13 @@
 <ng-container *ngIf="stopsWithSchedules.length > 0 as stops; else loadingTemplate">
+  <div class="flex justify-center flex-wrap bt pv3" style="border-width: 6px;">
+    <span class="text-gray f1 b">Your&nbsp;</span>
+    <span class="f1 b">Stops</span>
+    <span class="w-100 tc text-gray b">Here are your saved stops</span>
+  </div>
   <app-stop-schedule
-    *ngFor="let stop of stopsWithSchedules; last as last"
+    *ngFor="let stop of stopsWithSchedules; first as first; last as last"
     [stop]="stop"
+    [class.bt]="!first"
     [class.mb4]="!last">
       <app-delete-button
         (clickEvent)="deleteStation(stop)"

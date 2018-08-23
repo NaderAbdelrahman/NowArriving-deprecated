@@ -1,12 +1,14 @@
 <div class="gray ttu b">{{ direction }}</div>
 <div class="flex justify-start flex-wrap">
-  <ng-container *ngFor="let arrival of arrivals; index as idx">
-    <div *ngIf="idx === 0" class="w-100 f1 b">
-      {{ (arrival.arrivalTime * 1000) | date:"shortTime" }}<span *ngIf="arrival.routeId === '6X' || arrival.routeId === '7X'">♦</span>
-      {{  initObservableArrivals(arrival.arrivalTime) }}
+  <ng-container *ngFor="let arrival of (arrivalsObs$ | async); index as idx">
+    <div *ngIf="idx === 0 && arrival.time !== '< 1 min'" class="w-100 f1 b">
+      {{ arrival.time }}<span *ngIf="arrival.routeId === '6X' || arrival.routeId === '7X'">♦</span>
+    </div>
+    <div *ngIf="idx === 0 && arrival.time === '< 1 min'" class="w-100 f1 b blinking">
+      Now Arriving
     </div>
     <div *ngIf="idx > 0" class="gray pr2 b">
-      {{ (arrival.arrivalTime * 1000) | date:"shortTime" }}<span *ngIf="arrival.routeId === '6X' || arrival.routeId === '7X'">♦</span>
+      {{ arrival.time }}<span *ngIf="arrival.routeId === '6X' || arrival.routeId === '7X'">♦</span>
     </div>
   </ng-container>
 </div>
