@@ -45,6 +45,14 @@ export class EditLinesPageComponent {
     private mtaApi: MtaApi
   ) { }
 
+  goBack(): void {
+    // this.router.navigateByUrl("/lines").then(() => {this.router.navigateByUrl("/lines/edit"); });
+    window.location.reload();
+  }
+  goToYourStops(): void {
+    this.router.navigateByUrl("/lines");
+  }
+
   setStopLine(line: string): void {
     this.stop.line = line;
     // Checks if line is null
