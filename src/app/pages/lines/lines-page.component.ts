@@ -13,6 +13,7 @@ import { MtaApi, SavedStopsService } from "../../core/api";
 import { Arrival, StopWithSchedule } from "../../models";
 import { STOP_LIST } from "../../common";
 
+
 const LINES_WITH_EXPRESS = new Set(["6", "7"]);
 
 @Component({
