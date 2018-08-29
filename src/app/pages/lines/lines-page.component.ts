@@ -53,7 +53,7 @@ export class LinesPageComponent implements OnInit, OnDestroy {
         startWith(!document.hidden),
         map(() => !document.hidden)
       );
-    const refreshInterval$ = intervalObservable(30e3)
+    const refreshInterval$ = intervalObservable(20000)
       .pipe(startWith(0));
 
     observableCombineLatest(
@@ -102,7 +102,6 @@ export class LinesPageComponent implements OnInit, OnDestroy {
       this.router.navigateByUrl("/lines/edit");
     }
   }
-
 }
 
 function makeStopWithSchedule(schedule: any): StopWithSchedule {
@@ -119,7 +118,11 @@ function makeStopWithSchedule(schedule: any): StopWithSchedule {
         } else if (LINES_WITH_EXPRESS.has(lineStr)) {
           return routeIdStr === lineStr || routeIdStr === lineStr + "X";
         } else if (lineStr === "S") {
-
+          if (schedule.stopId === "901" || schedule.stopId === "902") {
+            return routeIdStr === "GS";
+          } else {
+            return routeIdStr === "H" || routeIdStr === "FS";
+          }
         } else {
           return routeIdStr === lineStr;
         }
@@ -134,6 +137,12 @@ function makeStopWithSchedule(schedule: any): StopWithSchedule {
           return routeIdStr === lineStr || routeIdStr === "SI" || routeIdStr === "SS";
         } else if (LINES_WITH_EXPRESS.has(lineStr)) {
           return routeIdStr === lineStr || routeIdStr === lineStr + "X";
+        } else if (lineStr === "S") {
+          if (schedule.stopId === "901" || schedule.stopId === "902") {
+            return routeIdStr === "GS";
+          } else {
+            return routeIdStr === "H" || routeIdStr === "FS";
+          }
         } else {
           return routeIdStr === lineStr;
         }

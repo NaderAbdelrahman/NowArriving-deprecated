@@ -52,18 +52,11 @@ export class MtaApi {
   //   // );
   // }
 
-  getStopsByLine(line: string) {
+  getStopsByLine(line: string, extra?: string) {
     return this.http.get(this.route + "getStopsByLine?line=" + line).pipe(
       map((res: string) => JSON.parse(res))
     );
   }
-
-// ,
-//   map((boroughs) => boroughs.reduce((allStations, borough) => {
-//   allStations.push(...borough.stations);
-//   return allStations;
-// }, []))
-
 
   getSchedule(stopID: string | number, line: string | number): Observable<Schedule> {
     return this.http.get<Schedule>(this.route + "stopSchedule?stopID=" + stopID + "&line=" + line)
