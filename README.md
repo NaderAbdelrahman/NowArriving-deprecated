@@ -1,28 +1,6 @@
-# MtaApp
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.1.0.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
- 
+# Now Arriving
+   - Displays real-time subway arrival times in a beautiful and intuitive way
+   - Uses Angular w/ Typescript for the frontend, Typescript w/ Firebase functions for its custom backend, and the MTA’s API for real-time data
+   - Available as a web app and an Android app
+   
+ |![1](https://raw.githubusercontent.com/NaderAbdelrahman/NowArriving/master/Screenshots/1.png)|![2](https://raw.githubusercontent.com/NaderAbdelrahman/NowArriving/master/Screenshots/3.png)|![3](https://raw.githubusercontent.com/NaderAbdelrahman/NowArriving/master/Screenshots/4.png)|
